@@ -1,0 +1,74 @@
+{
+  "oil_production_data": [
+    {
+      "country": "United States",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 12900000,
+      "is_OPEC_member": false
+    },
+    {
+      "country": "Russia",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 9480000,
+      "is_OPEC_member": false
+    },
+    {
+      "country": "Saudi Arabia",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 9060000,
+      "is_OPEC_member": true
+    },
+    {
+      "country": "Canada",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 4778973,
+      "is_OPEC_member": false
+    },
+    {
+      "country": "Iraq",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 4340000,
+      "is_OPEC_member": true
+    },
+    {
+      "country": "China",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 4016664,
+      "is_OPEC_member": false
+    },
+    {
+      "country": "Brazil",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 3670000,
+      "is_OPEC_member": false
+    },
+    {
+      "country": "United Arab Emirates",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 3250000,
+      "is_OPEC_member": true
+    },
+    {
+      "country": "Iran",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 3140000,
+      "is_OPEC_member": true
+    },
+    {
+      "country": "Kuwait",
+      "year": 2023,
+      "month": "September",
+      "production_bbl_per_day": 2590000,
+      "is_OPEC_member": true
+    }
+  ]
+}
