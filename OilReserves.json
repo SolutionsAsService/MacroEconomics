@@ -159,5 +159,132 @@
       "US EIA Reserves (bbl)": "5,800",
       "OPEC
 
+      {
+  "OilData": [
+    {
+      "Country": "Oman",
+      "US_EIA_Reserves": 5400,
+      "OPEC_Reserves": 5373,
+      "BP_Reserves": 5300,
+      "Other_Reserves": 980000,
+      "Production_2021": 15
+    },
+    {
+      "Country": "India",
+      "US_EIA_Reserves": 4600,
+      "OPEC_Reserves": 4495,
+      "BP_Reserves": 5680,
+      "Other_Reserves": 4409,
+      "Production_2021": 14
+    },
+    {
+      "Country": "Vietnam",
+      "US_EIA_Reserves": 4400,
+      "OPEC_Reserves": 4400,
+      "BP_Reserves": 4000,
+      "Other_Reserves": 203000,
+      "Production_2021": 59
+    },
+    {
+      "Country": "South Sudan",
+      "US_EIA_Reserves": 3800,
+      "Other_Reserves": 153000,
+      "Production_2021": 68
+    },
+    {
+      "Country": "Malaysia",
+      "US_EIA_Reserves": 3600,
+      "OPEC_Reserves": 3600,
+      "BP_Reserves": 3600,
+      "Other_Reserves": 5542,
+      "Production_2021": 19
+    },
+    {
+      "Country": "Egypt",
+      "US_EIA_Reserves": 3300,
+      "OPEC_Reserves": 4400,
+      "BP_Reserves": 3500,
+      "Other_Reserves": 592000,
+      "Production_2021": 15
+    },
+    {
+      "Country": "Yemen",
+      "US_EIA_Reserves": 3000,
+      "BP_Reserves": 3000,
+      "Other_Reserves": 59000,
+      "Production_2021": 100
+    },
+    {
+      "Country": "Congo (OPEC)",
+      "OPEC_Reserves": 2900,
+      "BP_Reserves": 1600,
+      "Other_Reserves": 275000,
+      "Production_2021": 29
+    },
+    {
+      "Country": "United Kingdom",
+      "US_EIA_Reserves": 2500,
+      "OPEC_Reserves": 2069,
+      "BP_Reserves": 2800,
+      "Other_Reserves": 2618,
+      "Production_2021": 7.4
+    },
+    {
+      "Country": "Syria",
+      "US_EIA_Reserves": 2500,
+      "OPEC_Reserves": 2500,
+      "BP_Reserves": 2500,
+      "Other_Reserves": 42000,
+      "Production_2021": 160
+    },
+    {
+      "Country": "Uganda",
+      "US_EIA_Reserves": 2500,
+      "Production_2021": 0
+    },
+    {
+      "Country": "Argentina",
+      "US_EIA_Reserves": 2500,
+      "OPEC_Reserves": 2162,
+      "BP_Reserves": 2400,
+      "Other_Reserves": 2330,
+      "Production_2021": 9.8
+    },
+    {
+      "Country": "Indonesia",
+      "US_EIA_Reserves": 2500,
+      "OPEC_Reserves": 3310,
+      "BP_Reserves": 3600,
+      "Other_Reserves": 3497,
+      "Production_2021": 8.0
+    },
+    {
+      "Country": "Australia",
+      "US_EIA_Reserves": 2400,
+      "OPEC_Reserves": 3985,
+      "BP_Reserves": 4000,
+      "Other_Reserves": 4002,
+      "Production_2021": 26
+    },
+    {
+      "Country": "Colombia",
+      "US_EIA_Reserves": 2000,
+      "OPEC_Reserves": 1665,
+      "BP_Reserves": 2300,
+      "Other_Reserves": 768000,
+      "Production_2021": 7
+    },
+    {
+      "Country": "Gabon (OPEC)",
+      "US_EIA_Reserves": 2000,
+      "OPEC_Reserves": 2000,
+      "BP_Reserves": 2000,
+      "Other_Reserves": 181000,
+      "Production_2021": 30
+    },
+    {
+      "Country": "Chad",
+      "US_EIA_Reserves": 1500
+
   }
 }
