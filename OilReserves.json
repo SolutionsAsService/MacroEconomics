@@ -1,0 +1,75 @@
+{
+  "Countries": {
+    "Venezuela": {
+      "US EIA Reserves": "304,000 million barrels",
+      "OPEC Reserves": "302,809 million barrels",
+      "BP Reserves": "300,900 million barrels",
+      "Oil Production 2021 (bbl/day)": "700,000",
+      "Years of Production in Reserve": "1,000"
+    },
+    "Saudi Arabia": {
+      "US EIA Reserves": "259,000 million barrels",
+      "OPEC Reserves": "266,260 million barrels",
+      "BP Reserves": "266,000 million barrels",
+      "Oil Production 2021 (bbl/day)": "10,846,000",
+      "Years of Production in Reserve": "65.4"
+    },
+    "Iran": {
+      "US EIA Reserves": "209,000 million barrels",
+      "OPEC Reserves": "208,600 million barrels",
+      "BP Reserves": "155,600 million barrels",
+      "Oil Production 2021 (bbl/day)": "3,511,000",
+      "Years of Production in Reserve": "163"
+    },
+    "Canada": {
+      "US EIA Reserves": "170,000 million barrels",
+      "OPEC Reserves": "4,421 million barrels",
+      "BP Reserves": "172,200 million barrels",
+      "Oil Production 2021 (bbl/day)": "5,663,000",
+      "Years of Production in Reserve": "82"
+    },
+    "Iraq": {
+      "US EIA Reserves": "145,000 million barrels",
+      "OPEC Reserves": "147,223 million barrels",
+      "BP Reserves": "143,100 million barrels",
+      "Oil Production 2021 (bbl/day)": "4,188,000",
+      "Years of Production in Reserve": "94.8"
+    },
+    "Kuwait": {
+      "US EIA Reserves": "102,000 million barrels",
+      "OPEC Reserves": "104,000 million barrels",
+      "BP Reserves": "104,000 million barrels",
+      "Oil Production 2021 (bbl/day)": "2,715,000",
+      "Years of Production in Reserve": "103"
+    },
+    "United Arab Emirates": {
+      "US EIA Reserves": "98,000 million barrels",
+      "OPEC Reserves": "111,000 million barrels",
+      "BP Reserves": "111,000 million barrels",
+      "Oil Production 2021 (bbl/day)": "3,638,000",
+      "Years of Production in Reserve": "74"
+    },
+    "Russia": {
+      "US EIA Reserves": "80,000 million barrels",
+      "OPEC Reserves": "80,000 million barrels",
+      "BP Reserves": "102,400 million barrels",
+      "Oil Production 2021 (bbl/day)": "9,990,000",
+      "Years of Production in Reserve": "20"
+    },
+    "Libya": {
+      "US EIA Reserves": "48,000 million barrels",
+      "OPEC Reserves": "74,363 million barrels",
+      "BP Reserves": "78,400 million barrels",
+      "Oil Production 2021 (bbl/day)": "1,224,000",
+      "Years of Production in Reserve": "110"
+    },
+    "United States": {
+      "US EIA Reserves": "44,000 million barrels",
+      "OPEC Reserves": "32,773 million barrels",
+      "BP Reserves": "55,000 million barrels",
+      "Oil Production 2021 (bbl/day)": "11,315,000",
+      "Years of Production in Reserve": "6.3"
+    }
+    // Additional countries can be added here in the same format
+  }
+}
