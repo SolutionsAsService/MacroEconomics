@@ -69,7 +69,95 @@
       "BP Reserves": "55,000 million barrels",
       "Oil Production 2021 (bbl/day)": "11,315,000",
       "Years of Production in Reserve": "6.3"
-    }
-    // Additional countries can be added here in the same format
+    },
+    {
+    "Nigeria": {
+      "US EIA Reserves (bbl)": "37,000",
+      "OPEC Reserves (bbl)": "37,453",
+      "BP Reserves (bbl)": "37,100",
+      "Oil Production 2021 (bbl/day)": "1,684,000",
+      "Years of Production in Reserve": "60"
+    },
+    "Kazakhstan": {
+      "US EIA Reserves (bbl)": "30,000",
+      "OPEC Reserves (bbl)": "30,000",
+      "BP Reserves (bbl)": "30,000",
+      "Oil Production 2021 (bbl/day)": "1,849,000",
+      "Years of Production in Reserve": "40"
+    },
+    "China": {
+      "US EIA Reserves (bbl)": "26,000",
+      "OPEC Reserves (bbl)": "25,627",
+      "BP Reserves (bbl)": "18,500",
+      "Oil Production 2021 (bbl/day)": "4,341,000",
+      "Years of Production in Reserve": "16"
+    },
+    "Qatar": {
+      "US EIA Reserves (bbl)": "25,000",
+      "OPEC Reserves (bbl)": "25,244",
+      "BP Reserves (bbl)": "25,244",
+      "Oil Production 2021 (bbl/day)": "1,808,000",
+      "Years of Production in Reserve": "38"
+    },
+    "Brazil": {
+      "US EIA Reserves (bbl)": "13,000",
+      "OPEC Reserves (bbl)": "12,634",
+      "BP Reserves (bbl)": "13,000",
+      "Oil Production 2021 (bbl/day)": "3,054,000",
+      "Years of Production in Reserve": "12"
+    },
+    "Algeria": {
+      "US EIA Reserves (bbl)": "12,000",
+      "OPEC Reserves (bbl)": "12,200",
+      "BP Reserves (bbl)": "12,200",
+      "Oil Production 2021 (bbl/day)": "1,363,000",
+      "Years of Production in Reserve": "24"
+    },
+    "Guyana": {
+      "Oil Reserves (bbl)": "11,000",
+      "Oil Production 2021 (bbl/day)": "117,000",
+      "Years of Production in Reserve": "200"
+    },
+    "Namibia": {
+      "Oil Reserves (bbl)": "11,000",
+      "Years of Production in Reserve": "Unknown"
+    },
+    "Ecuador": {
+      "US EIA Reserves (bbl)": "8,300",
+      "OPEC Reserves (bbl)": "8,273",
+      "BP Reserves (bbl)": "8,000",
+      "Oil Production 2021 (bbl/day)": "475,000",
+      "Years of Production in Reserve": "48"
+    },
+    "Norway": {
+      "US EIA Reserves (bbl)": "8,100",
+      "OPEC Reserves (bbl)": "6,376",
+      "BP Reserves (bbl)": "8,000",
+      "Oil Production 2021 (bbl/day)": "2,056,000",
+      "Years of Production in Reserve": "11"
+    },
+    "Angola": {
+      "US EIA Reserves (bbl)": "7,800",
+      "OPEC Reserves (bbl)": "8,384",
+      "BP Reserves (bbl)": "12,700",
+      "Oil Production 2021 (bbl/day)": "1,162,000",
+      "Years of Production in Reserve": "18"
+    },
+    "Azerbaijan": {
+      "US EIA Reserves (bbl)": "7,000",
+      "OPEC Reserves (bbl)": "7,000",
+      "BP Reserves (bbl)": "7,000",
+      "Oil Production 2021 (bbl/day)": "709,000",
+      "Years of Production in Reserve": "30"
+    },
+    "Suriname": {
+      "Oil Reserves (bbl)": "6,500",
+      "Oil Production 2021 (bbl/day)": "14,000",
+      "Years of Production in Reserve": "1,300"
+    },
+    "Mexico": {
+      "US EIA Reserves (bbl)": "5,800",
+      "OPEC
+
   }
 }
