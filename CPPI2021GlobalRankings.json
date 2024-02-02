@@ -1,5 +1,5 @@
 {
-    "CPPI2021GlobalRankings": [
+    "cppi2021GlobalRanking": [
       {
         "portName": "King Abdullah Port",
         "country": "Saudi Arabia",
@@ -2713,10 +2713,895 @@
           "rank": 262,
           "indexValue": -4.073
         }
+      },
+      {
+        "portName": "Manaus",
+        "country": "Brazil",
+        "administrativeApproach": {
+          "rank": 263,
+          "totalPoints": -9.337
+        },
+        "statisticalApproach": {
+          "rank": 263,
+          "indexValue": -4.392
+        }
+      },
+      {
+        "portName": "Adelaide",
+        "country": "Australia",
+        "administrativeApproach": {
+          "rank": 264,
+          "totalPoints": -9.863
+        },
+        "statisticalApproach": {
+          "rank": 264,
+          "indexValue": -4.755
+        }
+      },
+      {
+        "portName": "La Guaira",
+        "country": "Venezuela",
+        "administrativeApproach": {
+          "rank": 265,
+          "totalPoints": -10.037
+        },
+        "statisticalApproach": {
+          "rank": 265,
+          "indexValue": -4.983
+        }
+      },
+      {
+        "portName": "Yantian",
+        "country": "China",
+        "administrativeApproach": {
+          "rank": 266,
+          "totalPoints": -10.230
+        },
+        "statisticalApproach": {
+          "rank": 270,
+          "indexValue": -5.466
+        }
+      },
+      {
+        "portName": "Turbo",
+        "country": "Colombia",
+        "administrativeApproach": {
+          "rank": 267,
+          "totalPoints": -11.329
+        },
+        "statisticalApproach": {
+          "rank": 277,
+          "indexValue": -6.623
+        }
+      },
+      {
+        "portName": "Freetown",
+        "country": "Sierra Leone",
+        "administrativeApproach": {
+          "rank": 268,
+          "totalPoints": -11.843
+        },
+        "statisticalApproach": {
+          "rank": 272,
+          "indexValue": -5.691
+        }
+      },
+      {
+        "portName": "Hueneme",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 269,
+          "totalPoints": -12.006
+        },
+        "statisticalApproach": {
+          "rank": 274,
+          "indexValue": -6.110
+        }
+      },
+      {
+        "portName": "Beira",
+        "country": "Mozambique",
+        "administrativeApproach": {
+          "rank": 270,
+          "totalPoints": -12.045
+        },
+        "statisticalApproach": {
+          "rank": 268,
+          "indexValue": -5.257
+        }
+      },
+      {
+        "portName": "Acajutla",
+        "country": "El Salvador",
+        "administrativeApproach": {
+          "rank": 271,
+          "totalPoints": -12.182
+        },
+        "statisticalApproach": {
+          "rank": 269,
+          "indexValue": -5.390
+        }
+      },
+      {
+        "portName": "Constantza",
+        "country": "Romania",
+        "administrativeApproach": {
+          "rank": 272,
+          "totalPoints": -12.712
+        },
+        "statisticalApproach": {
+          "rank": 272,
+          "indexValue": -5.691
+        }
+      },
+      {
+        "portName": "Santo Tomas De Castilla",
+        "country": "Guatemala",
+        "administrativeApproach": {
+          "rank": 273,
+          "totalPoints": -13.292
+        },
+        "statisticalApproach": {
+          "rank": 275,
+          "indexValue": -6.427
+        }
+      },
+      {
+        "portName": "Davao",
+        "country": "Philippines",
+        "administrativeApproach": {
+          "rank": 274,
+          "totalPoints": -13.669
+        },
+        "statisticalApproach": {
+          "rank": 279,
+          "indexValue": -6.968
+        }
+      },
+      {
+        "portName": "Fortaleza",
+        "country": "Brazil",
+        "administrativeApproach": {
+          "rank": 275,
+          "totalPoints": -14.807
+        },
+        "statisticalApproach": {
+          "rank": 278,
+          "indexValue": -6.668
+        }
+      },
+      {
+        "portName": "Kaliningrad",
+        "country": "Russia",
+        "administrativeApproach": {
+          "rank": 276,
+          "totalPoints": -14.877
+        },
+        "statisticalApproach": {
+          "rank": 276,
+          "indexValue": -6.574
+        }
+      },
+      {
+        "portName": "Alexandria (Egypt)",
+        "country": "Egypt",
+        "administrativeApproach": {
+          "rank": 277,
+          "totalPoints": -15.305
+        },
+        "statisticalApproach": {
+          "rank": 266,
+          "indexValue": -5.001
+        }
+      },
+      {
+        "portName": "Zeebrugge",
+        "country": "Belgium",
+        "administrativeApproach": {
+          "rank": 278,
+          "totalPoints": -15.389
+        },
+        "statisticalApproach": {
+          "rank": 291,
+          "indexValue": -11.150
+        }
+      },
+      {
+        "portName": "Toamasina",
+        "country": "Madagascar",
+        "administrativeApproach": {
+          "rank": 279,
+          "totalPoints": -16.113
+        },
+        "statisticalApproach": {
+          "rank": 280,
+          "indexValue": -7.109
+        }
+      },
+      {
+        "portName": "Suape",
+        "country": "Brazil",
+        "administrativeApproach": {
+          "rank": 280,
+          "totalPoints": -17.478
+        },
+        "statisticalApproach": {
+          "rank": 287,
+          "indexValue": -9.607
+        }
+      },
+      {
+        "portName": "Takoradi",
+        "country": "Ghana",
+        "administrativeApproach": {
+          "rank": 281,
+          "totalPoints": -18.202
+        },
+        "statisticalApproach": {
+          "rank": 290,
+          "indexValue": -11.023
+        }
+      },
+      {
+        "portName": "Rotterdam",
+        "country": "Netherlands",
+        "administrativeApproach": {
+          "rank": 291,
+          "totalPoints": -26.820
+        },
+        "statisticalApproach": {
+          "rank": 300,
+          "indexValue": -13.017
+        }
+      },
+      {
+        "portName": "Le Havre",
+        "country": "France",
+        "administrativeApproach": {
+          "rank": 292,
+          "totalPoints": -26.886
+        },
+        "statisticalApproach": {
+          "rank": 292,
+          "indexValue": -11.396
+        }
+      },
+      {
+        "portName": "Mombasa",
+        "country": "Kenya",
+        "administrativeApproach": {
+          "rank": 293,
+          "totalPoints": -27.174
+        },
+        "statisticalApproach": {
+          "rank": 296,
+          "indexValue": -12.177
+        }
+      },
+      {
+        "portName": "Mayotte",
+        "country": "Mayotte",
+        "administrativeApproach": {
+          "rank": 294,
+          "totalPoints": -27.444
+        },
+        "statisticalApproach": {
+          "rank": 293,
+          "indexValue": -11.873
+        }
+      },
+      {
+        "portName": "Point Lisas Ports",
+        "country": "Trinidad and Tobago",
+        "administrativeApproach": {
+          "rank": 295,
+          "totalPoints": -28.104
+        },
+        "statisticalApproach": {
+          "rank": 301,
+          "indexValue": -13.433
+        }
+      },
+      {
+        "portName": "Guayaquil",
+        "country": "Ecuador",
+        "administrativeApproach": {
+          "rank": 296,
+          "totalPoints": -29.497
+        },
+        "statisticalApproach": {
+          "rank": 302,
+          "indexValue": -13.513
+        }
+      },
+      {
+        "portName": "Arica",
+        "country": "Chile",
+        "administrativeApproach": {
+          "rank": 297,
+          "totalPoints": -30.042
+        },
+        "statisticalApproach": {
+          "rank": 295,
+          "indexValue": -12.157
+        }
+      },
+      {
+        "portName": "Otago Harbour",
+        "country": "New Zealand",
+        "administrativeApproach": {
+          "rank": 298,
+          "totalPoints": -30.113
+        },
+        "statisticalApproach": {
+          "rank": 292,
+          "indexValue": -11.396
+        }
+      },
+      {
+        "portName": "Bangkok",
+        "country": "Thailand",
+        "administrativeApproach": {
+          "rank": 299,
+          "totalPoints": -30.452
+        },
+        "statisticalApproach": {
+          "rank": 304,
+          "indexValue": -14.923
+        }
+      },
+      {
+        "portName": "Dublin",
+        "country": "Ireland",
+        "administrativeApproach": {
+          "rank": 300,
+          "totalPoints": -30.607
+        },
+        "statisticalApproach": {
+          "rank": 299,
+          "indexValue": -12.365
+        }
+      },
+      {
+        "portName": "Seattle",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 336,
+          "totalPoints": -92.888
+        },
+        "statisticalApproach": {
+          "rank": 336,
+          "indexValue": -40.078
+        }
+      },
+      {
+        "portName": "Genoa",
+        "country": "Italy",
+        "administrativeApproach": {
+          "rank": 337,
+          "totalPoints": -93.568
+        },
+        "statisticalApproach": {
+          "rank": 337,
+          "indexValue": -40.159
+        }
+      },
+      {
+        "portName": "Livorno",
+        "country": "Italy",
+        "administrativeApproach": {
+          "rank": 338,
+          "totalPoints": -96.571
+        },
+        "statisticalApproach": {
+          "rank": 338,
+          "indexValue": -40.420
+        }
+      },
+      {
+        "portName": "Tin Can Island",
+        "country": "Nigeria",
+        "administrativeApproach": {
+          "rank": 339,
+          "totalPoints": -98.354
+        },
+        "statisticalApproach": {
+          "rank": 339,
+          "indexValue": -44.345
+        }
+      },
+      {
+        "portName": "Douala",
+        "country": "Cameroon",
+        "administrativeApproach": {
+          "rank": 340,
+          "totalPoints": -106.203
+        },
+        "statisticalApproach": {
+          "rank": 340,
+          "indexValue": -44.552
+        }
+      },
+      {
+        "portName": "Chattogram",
+        "country": "Bangladesh",
+        "administrativeApproach": {
+          "rank": 341,
+          "totalPoints": -109.249
+        },
+        "statisticalApproach": {
+          "rank": 347,
+          "indexValue": -54.949
+        }
+      },
+      {
+        "portName": "Onne",
+        "country": "Nigeria",
+        "administrativeApproach": {
+          "rank": 342,
+          "totalPoints": -111.104
+        },
+        "statisticalApproach": {
+          "rank": 343,
+          "indexValue": -49.702
+        }
+      },
+      {
+        "portName": "Bristol",
+        "country": "United Kingdom",
+        "administrativeApproach": {
+          "rank": 343,
+          "totalPoints": -111.703
+        },
+        "statisticalApproach": {
+          "rank": 344,
+          "indexValue": -52.914
+        }
+      },
+      {
+        "portName": "Prince Rupert",
+        "country": "Canada",
+        "administrativeApproach": {
+          "rank": 344,
+          "totalPoints": -114.287
+        },
+        "statisticalApproach": {
+          "rank": 339,
+          "indexValue": -44.345
+        }
+      },
+      {
+        "portName": "Tacoma",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 345,
+          "totalPoints": -119.152
+        },
+        "statisticalApproach": {
+          "rank": 341,
+          "indexValue": -45.529
+        }
+      },
+      {
+        "portName": "Seattle",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 336,
+          "totalPoints": -92.888
+        },
+        "statisticalApproach": {
+          "rank": 336,
+          "indexValue": -40.078
+        }
+      },
+      {
+        "portName": "Genoa",
+        "country": "Italy",
+        "administrativeApproach": {
+          "rank": 337,
+          "totalPoints": -93.568
+        },
+        "statisticalApproach": {
+          "rank": 337,
+          "indexValue": -40.159
+        }
+      },
+      {
+        "portName": "Livorno",
+        "country": "Italy",
+        "administrativeApproach": {
+          "rank": 338,
+          "totalPoints": -96.571
+        },
+        "statisticalApproach": {
+          "rank": 338,
+          "indexValue": -40.420
+        }
+      },
+      {
+        "portName": "Tin Can Island",
+        "country": "Nigeria",
+        "administrativeApproach": {
+          "rank": 339,
+          "totalPoints": -98.354
+        },
+        "statisticalApproach": {
+          "rank": 339,
+          "indexValue": -44.345
+        }
+      },
+      {
+        "portName": "Douala",
+        "country": "Cameroon",
+        "administrativeApproach": {
+          "rank": 340,
+          "totalPoints": -106.203
+        },
+        "statisticalApproach": {
+          "rank": 340,
+          "indexValue": -44.552
+        }
+      },
+      {
+        "portName": "Chattogram",
+        "country": "Bangladesh",
+        "administrativeApproach": {
+          "rank": 341,
+          "totalPoints": -109.249
+        },
+        "statisticalApproach": {
+          "rank": 347,
+          "indexValue": -54.949
+        }
+      },
+      {
+        "portName": "Onne",
+        "country": "Nigeria",
+        "administrativeApproach": {
+          "rank": 342,
+          "totalPoints": -111.104
+        },
+        "statisticalApproach": {
+          "rank": 343,
+          "indexValue": -49.702
+        }
+      },
+      {
+        "portName": "Bristol",
+        "country": "United Kingdom",
+        "administrativeApproach": {
+          "rank": 343,
+          "totalPoints": -111.703
+        },
+        "statisticalApproach": {
+          "rank": 344,
+          "indexValue": -52.914
+        }
+      },
+      {
+        "portName": "Prince Rupert",
+        "country": "Canada",
+        "administrativeApproach": {
+          "rank": 344,
+          "totalPoints": -114.287
+        },
+        "statisticalApproach": {
+          "rank": 339,
+          "indexValue": -44.345
+        }
+      },
+      {
+        "portName": "Tacoma",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 345,
+          "totalPoints": -119.152
+        },
+        "statisticalApproach": {
+          "rank": 341,
+          "indexValue": -45.529
+        }
+      },
+      {
+        "portName": "Southampton",
+        "country": "United Kingdom",
+        "administrativeApproach": {
+          "rank": 346,
+          "totalPoints": -120.369
+        },
+        "statisticalApproach": {
+          "rank": 348,
+          "indexValue": -55.490
+        }
+      },
+      {
+        "portName": "London",
+        "country": "United Kingdom",
+        "administrativeApproach": {
+          "rank": 347,
+          "totalPoints": -124.535
+        },
+        "statisticalApproach": {
+          "rank": 355,
+          "indexValue": -73.209
+        }
+      },
+      {
+        "portName": "Cotonou",
+        "country": "Benin",
+        "administrativeApproach": {
+          "rank": 348,
+          "totalPoints": -130.819
+        },
+        "statisticalApproach": {
+          "rank": 346,
+          "indexValue": -54.931
+        }
+      },
+      {
+        "portName": "Lomé",
+        "country": "Togo",
+        "administrativeApproach": {
+          "rank": 349,
+          "totalPoints": -133.170
+        },
+        "statisticalApproach": {
+          "rank": 349,
+          "indexValue": -56.728
+        }
+      },
+      {
+        "portName": "Dunkirk",
+        "country": "France",
+        "administrativeApproach": {
+          "rank": 350,
+          "totalPoints": -142.600
+        },
+        "statisticalApproach": {
+          "rank": 345,
+          "indexValue": -53.157
+        }
+      },
+      {
+        "portName": "Auckland",
+        "country": "New Zealand",
+        "administrativeApproach": {
+          "rank": 351,
+          "totalPoints": -142.913
+        },
+        "statisticalApproach": {
+          "rank": 350,
+          "indexValue": -62.159
+        }
+      },
+      {
+        "portName": "Freeport (Bahamas)",
+        "country": "Bahamas",
+        "administrativeApproach": {
+          "rank": 352,
+          "totalPoints": -157.072
+        },
+        "statisticalApproach": {
+          "rank": 351,
+          "indexValue": -64.071
+        }
+      },
+      {
+        "portName": "Sokhna",
+        "country": "Egypt",
+        "administrativeApproach": {
+          "rank": 353,
+          "totalPoints": -158.457
+        },
+        "statisticalApproach": {
+          "rank": 352,
+          "indexValue": -66.771
+        }
+      },
+      {
+        "portName": "Tema",
+        "country": "Ghana",
+        "administrativeApproach": {
+          "rank": 354,
+          "totalPoints": -160.565
+        },
+        "statisticalApproach": {
+          "rank": 353,
+          "indexValue": -67.093
+        }
+      },
+      {
+        "portName": "Kribi Deep Sea Port",
+        "country": "Cameroon",
+        "administrativeApproach": {
+          "rank": 355,
+          "totalPoints": -174.476
+        },
+        "statisticalApproach": {
+          "rank": 357,
+          "indexValue": -74.427
+        }
+      },
+      {
+        "portName": "Nouakchott",
+        "country": "Mauritania",
+        "administrativeApproach": {
+          "rank": 356,
+          "totalPoints": -175.532
+        },
+        "statisticalApproach": {
+          "rank": 354,
+          "indexValue": -70.175
+        }
+      },
+      {
+        "portName": "Beirut",
+        "country": "Lebanon",
+        "administrativeApproach": {
+          "rank": 357,
+          "totalPoints": -183.442
+        },
+        "statisticalApproach": {
+          "rank": 356,
+          "indexValue": -73.234
+        }
+      },
+      {
+        "portName": "Lagos (Nigeria)",
+        "country": "Nigeria",
+        "administrativeApproach": {
+          "rank": 358,
+          "totalPoints": -188.317
+        },
+        "statisticalApproach": {
+          "rank": 358,
+          "indexValue": -80.295
+        }
+      },
+      {
+        "portName": "Oakland",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 359,
+          "totalPoints": -207.413
+        },
+        "statisticalApproach": {
+          "rank": 360,
+          "indexValue": -95.795
+        }
+      },
+      {
+        "portName": "Abidjan",
+        "country": "Ivory Coast",
+        "administrativeApproach": {
+          "rank": 360,
+          "totalPoints": -216.138
+        },
+        "statisticalApproach": {
+          "rank": 359,
+          "indexValue": -93.807
+        }
+      },
+      {
+        "portName": "Dar Es Salaam",
+        "country": "Tanzania",
+        "administrativeApproach": {
+          "rank": 361,
+          "totalPoints": -248.798
+        },
+        "statisticalApproach": {
+          "rank": 361,
+          "indexValue": -105.753
+        }
+      },
+      {
+        "portName": "Pointe-Noire",
+        "country": "Republic of the Congo",
+        "administrativeApproach": {
+          "rank": 362,
+          "totalPoints": -320.281
+        },
+        "statisticalApproach": {
+          "rank": 362,
+          "indexValue": -110.337
+        }
+      },
+      {
+        "portName": "Ngqura",
+        "country": "South Africa",
+        "administrativeApproach": {
+          "rank": 363,
+          "totalPoints": -359.179
+        },
+        "statisticalApproach": {
+          "rank": 365,
+          "indexValue": -170.593
+        }
+      },
+      {
+        "portName": "Durban",
+        "country": "South Africa",
+        "administrativeApproach": {
+          "rank": 364,
+          "totalPoints": -386.098
+        },
+        "statisticalApproach": {
+          "rank": 363,
+          "indexValue": -155.820
+        }
+      },
+      {
+        "portName": "Cape Town",
+        "country": "South Africa",
+        "administrativeApproach": {
+          "rank": 365,
+          "totalPoints": -410.746
+        },
+        "statisticalApproach": {
+          "rank": 364,
+          "indexValue": -159.253
+        }
+      },
+      {
+        "portName": "Luanda",
+        "country": "Angola",
+        "administrativeApproach": {
+          "rank": 366,
+          "totalPoints": -442.446
+        },
+        "statisticalApproach": {
+          "rank": 366,
+          "indexValue": -174.675
+        }
+      },
+      {
+        "portName": "Savannah",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 367,
+          "totalPoints": -464.721
+        },
+        "statisticalApproach": {
+          "rank": 367,
+          "indexValue": -217.103
+        }
+      },
+      {
+        "portName": "Vancouver (Canada)",
+        "country": "Canada",
+        "administrativeApproach": {
+          "rank": 368,
+          "totalPoints": -573.524
+        },
+        "statisticalApproach": {
+          "rank": 368,
+          "indexValue": -245.879
+        }
+      },
+      {
+        "portName": "Long Beach",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 369,
+          "totalPoints": -952.470
+        },
+        "statisticalApproach": {
+          "rank": 370,
+          "indexValue": -348.928
+        }
+      },
+      {
+        "portName": "Los Angeles",
+        "country": "USA",
+        "administrativeApproach": {
+          "rank": 370,
+          "totalPoints": -954.086
+        },
+        "statisticalApproach": {
+          "rank": 369,
+          "indexValue": -281.841
+        }
       }
-
-    
-    
     ]
   }
   
