@@ -1,0 +1,124 @@
+{
+  "CFAFranc": {
+    "Overview": {
+      "Name": "CFA Franc",
+      "Abbreviation": "F.CFA",
+      "ISO_Codes": {
+        "Central_African_CFA_Franc": "XAF",
+        "West_African_CFA_Franc": "XOF"
+      },
+      "Usage": {
+        "West_Africa": [
+          "Benin",
+          "Burkina Faso",
+          "Guinea-Bissau",
+          "Ivory Coast",
+          "Mali",
+          "Niger",
+          "Senegal",
+          "Togo"
+        ],
+        "Central_Africa": [
+          "Cameroon",
+          "Central African Republic",
+          "Chad",
+          "Equatorial Guinea",
+          "Gabon",
+          "Republic of the Congo"
+        ],
+        "Population_2021": 193.1,
+        "GDP_2021_USD_Billion": 283.0
+      },
+      "ExchangeRate": {
+        "FixedToEuro": "€1 = F.CFA 655.957",
+        "MemberCountriesForexReserves": "50% deposited with French Treasury"
+      },
+      "Criticism": [
+        "Restricts sovereignty of African member states",
+        "Monetary policy in hands of European Central Bank",
+        "Facilitates exports and imports between France and member countries"
+      ],
+      "Reform": {
+        "Date": "May 2020",
+        "FrenchNationalAssemblyEndsEngagement": true,
+        "FutureName": "Eco",
+        "ForeignReserveRequirementEnded": true
+      }
+    },
+    "History": {
+      "CreationDate": "26 December 1945",
+      "Reason": "Spare French colonies from strong devaluation of French franc post-WWII",
+      "ExchangeRateHistory": {
+        "1945-1948": "F.CFA 1 = 1.70 French franc",
+        "1948-1959": "F.CFA 1 = 2 French francs",
+        "1960-1994": "F.CFA 1 = NF 0.02",
+        "1994-1998": "F.CFA 1 = F 0.01",
+        "1999-onwards": "€1 = F.CFA 655.957"
+      },
+      "ChangesInCountriesUsingFranc": [
+        "1960: Guinea leaves",
+        "1962: Mali leaves",
+        "1973: Madagascar leaves",
+        "1973: Mauritania leaves",
+        "1974: Saint-Pierre and Miquelon leaves",
+        "1975: Réunion leaves",
+        "1976: Mayotte leaves",
+        "1984: Mali rejoins",
+        "1985: Equatorial Guinea joins",
+        "1997: Guinea-Bissau joins"
+      ]
+    },
+    "EuropeanMonetaryUnion": {
+      "1998CouncilOfEuropeanUnionAssessment": true,
+      "FrenchTreasuryGuaranteesConvertibility": true
+    },
+    "CriticismAndReplacementInWestAfrica": {
+      "ControlledByFrenchTreasury": true,
+      "MonetaryPolicyCriticism": true,
+      "Replacement": {
+        "InitiativeDate": "21 December 2019",
+        "NewCurrencyName": "Eco",
+        "Transition": "French engagement ended in May 2020"
+      }
+    },
+    "DebateOnEndingCentralAfricanCFA": {
+      "Date": "25 April 2023",
+      "FranceOpenToReformProposals": true
+    },
+    "Institutions": {
+      "West_African_CFA_Franc": {
+        "ISO_Code": "XOF",
+        "Central_Bank": "BCEAO",
+        "Countries": [
+          "Benin",
+          "Burkina Faso",
+          "Guinea-Bissau",
+          "Ivory Coast",
+          "Mali",
+          "Niger",
+          "Senegal",
+          "Togo"
+        ]
+      },
+      "Central_African_CFA_Franc": {
+        "ISO_Code": "XAF",
+        "Central_Bank": "BEAC",
+        "Countries": [
+          "Cameroon",
+          "Central African Republic",
+          "Chad",
+          "Equatorial Guinea",
+          "Gabon",
+          "Republic of the Congo"
+        ]
+      }
+    },
+    "Gallery": {
+      "CoinsAndBanknotes": [
+        "F.CFA 1 coin",
+        "500 West African CFA francs",
+        "1000 West African CFA francs"
+      ]
+    }
+  }
+}
