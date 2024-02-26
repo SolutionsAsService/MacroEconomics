@@ -1,0 +1,24 @@
+QuadraticFunding:
+  Description: "A crowdfunding model that optimizes for the public good by matching funds according to the square of the sum of the square roots of contributions received. It prioritizes the number of individual contributions over the total amount raised, emphasizing the importance of community support and participation."
+  Mechanics:
+    - "Participants contribute to projects they support."
+    - "A separate matching pool is set aside by sponsors."
+    - "The final amount given to a project is the sum of direct contributions and a matching amount. The matching amount is calculated based on the square of the sum of the square roots of all individual contributions."
+    - "This formula ensures that projects which receive a larger number of small contributions receive a disproportionately larger portion of the matching pool, compared to those receiving the same amount of money but from fewer, larger contributions."
+  Benefits:
+    - "Promotes democratic engagement by valuing the number of contributors more than the size of contributions."
+    - "Encourages wide participation in the funding process, making it more inclusive."
+    - "Optimizes for community preference, directing more funds to projects that have broader support."
+    - "Reduces the influence of large donors, making funding outcomes more equitable."
+  Challenges:
+    - "Complexity of the concept can be a barrier to understanding and participation."
+    - "Requires a significant matching pool to be effective, which depends on the generosity of sponsors."
+    - "Potential for gaming the system by splitting large donations into smaller ones to maximize matching funds."
+    - "Implementation and administration can be resource-intensive."
+  RealWorldExamples:
+    - "Gitcoin Grants: Uses quadratic funding to support open source software development."
+    - "CLR Fund: A decentralized protocol for funding public goods in the Ethereum ecosystem."
+  KeyComponents:
+    ContributionFormula: "The final amount received by a project = Direct contributions + (Square of the sum of the square roots of individual contributions) * Matching pool"
+    ImportanceOfCommunitySupport: "The mechanism's effectiveness hinges on broad community participation and the availability of a substantial matching fund."
+    DemocraticFunding: "Quadratic funding democratizes the funding process by giving more weight to the number of supporters than to the amount of money raised."
