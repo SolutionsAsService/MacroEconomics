@@ -1,0 +1,79 @@
+CryptoAllocationStrategies:
+  DollarCostAveraging:
+    Description: "Investing a fixed amount of money at regular intervals, regardless of the asset's price."
+    Objectives: 
+      - "Mitigate the impact of volatility."
+      - "Reduce the risk of investing a large amount at an unfavorable time."
+    Risks: 
+      - "Missed opportunities during rapidly rising markets."
+    Benefits: 
+      - "Smoother entry into the market."
+      - "Lower average purchase price over time."
+
+  ValueAveraging:
+    Description: "Adjusting the amount invested to maintain a target growth path for the portfolio."
+    Objectives: 
+      - "More aggressive than dollar-cost averaging in targeting portfolio growth."
+    Risks: 
+      - "Requires more capital to adjust the investment during downturns."
+    Benefits: 
+      - "Potentially higher returns by enforcing discipline in adding more during dips."
+
+  BuyAndHold:
+    Description: "Purchasing cryptocurrency and holding it long-term, regardless of market fluctuations."
+    Objectives: 
+      - "Benefit from long-term growth of the crypto market."
+    Risks: 
+      - "Exposure to prolonged bear markets."
+      - "Missing short-term profits from market fluctuations."
+    Benefits: 
+      - "Lower transaction costs."
+      - "Compounded growth over the long term."
+
+  BalancedPortfolio:
+    Description: "Diversifying investments across a range of cryptocurrencies to spread risk."
+    Objectives: 
+      - "Reduce risk by not overexposing to any single asset."
+    Risks: 
+      - "Diluted gains from high performers by balancing with lower performers."
+    Benefits: 
+      - "Mitigates the impact of volatility on the portfolio."
+      - "Steadier returns over time."
+
+  GrowthFocused:
+    Description: "Allocating a larger portion of the portfolio to high-risk, high-reward cryptocurrencies."
+    Objectives: 
+      - "Achieve higher returns by accepting higher risk."
+    Risks: 
+      - "Greater exposure to volatility and potential for significant losses."
+    Benefits: 
+      - "Potential for substantial gains."
+
+  IncomeGenerating:
+    Description: "Focusing on cryptocurrencies that offer dividends or interest through staking or other means."
+    Objectives: 
+      - "Generate regular income from the crypto holdings."
+    Risks: 
+      - "Dependency on the specific mechanisms and reliability of dividend or interest payments."
+    Benefits: 
+      - "Provides a steady income stream in addition to potential capital gains."
+
+  SectorRotation:
+    Description: "Rotating investments among different crypto sectors (DeFi, NFTs, Layer 1 protocols) based on market cycle phases."
+    Objectives: 
+      - "Capitalize on the growth potential of specific sectors at different times."
+    Risks: 
+      - "Timing the market incorrectly and missing out on gains."
+    Benefits: 
+      - "Opportunity to maximize returns by being in the right sector at the right time."
+
+  Hedging:
+    Description: "Using derivatives or other cryptocurrencies to offset potential losses in the portfolio."
+    Objectives: 
+      - "Protect the portfolio against significant losses."
+    Risks: 
+      - "Cost of hedging can reduce overall profits."
+      - "Complexity and risk of derivatives if used as a hedge."
+    Benefits: 
+      - "Reduced portfolio volatility."
+      - "Protection against downside risk."
