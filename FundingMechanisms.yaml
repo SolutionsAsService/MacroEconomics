@@ -1,0 +1,77 @@
+FundingMechanisms:
+  VentureCapital:
+    Description: "Funding provided by investors to startups and small businesses with long-term growth potential."
+    Objectives: 
+      - "Accelerate growth."
+      - "Bring innovations to market."
+    Examples: 
+      - "Series A, B, C funding rounds."
+      - "Angel investing."
+
+  Crowdfunding:
+    Description: "Raising small amounts of money from a large number of people, typically via the Internet."
+    Objectives: 
+      - "Validate product-market fit."
+      - "Engage with the community."
+    Examples: 
+      - "Kickstarter campaigns."
+      - "GoFundMe for personal or social causes."
+
+  Grants:
+    Description: "Non-repayable funds or products disbursed by one party, often a government department, corporation, foundation, or trust."
+    Objectives: 
+      - "Support specific projects or research."
+      - "Promote initiatives benefiting the public."
+    Examples: 
+      - "Research grants from governmental agencies like the NSF or NIH."
+      - "Community development grants from foundations."
+
+  DebtFinancing:
+    Description: "Raising funds through borrowing that must be repaid over time, with interest."
+    Objectives: 
+      - "Fund operations or expansion without diluting ownership."
+    Examples: 
+      - "Bank loans."
+      - "Bonds."
+
+  Bootstrapping:
+    Description: "Starting and growing a business using personal finance or the operating revenues of the new company."
+    Objectives: 
+      - "Maintain full control and ownership."
+      - "Minimize debt."
+    Examples: 
+      - "Self-funding."
+      - "Reinvesting initial sales back into the business."
+
+  EquityCrowdfunding:
+    Description: "A form of crowdfunding that gives investors a stake in the company in exchange for capital."
+    Objectives: 
+      - "Raise capital without traditional venture capital."
+    Examples: 
+      - "Platforms like SeedInvest or WeFunder."
+
+  Sponsorships:
+    Description: "Financial support received from an individual or organization in exchange for advertising rights or brand promotion."
+    Objectives: 
+      - "Fund events, projects, or operations."
+      - "Increase brand visibility."
+    Examples: 
+      - "Corporate sponsorships for events."
+      - "Athlete endorsements."
+
+  GovernmentSubsidies:
+    Description: "Financial assistance provided by the government to support businesses, industries, or projects that are in the public interest."
+    Objectives: 
+      - "Stimulate economic activity."
+      - "Promote social good or innovation."
+    Examples: 
+      - "Agricultural subsidies."
+      - "Renewable energy incentives."
+
+  DonationBasedFunding:
+    Description: "Receiving funds without the expectation of direct financial return, often for non-profits or charitable causes."
+    Objectives: 
+      - "Support operations and mission-driven activities."
+    Examples: 
+      - "Online donation platforms like Donorbox."
+      - "Charitable giving and endowments."
