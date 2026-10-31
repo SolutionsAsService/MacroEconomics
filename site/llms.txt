@@ -1,0 +1,12 @@
+# MacroEconomics
+
+> Oil, prices, ports and money: the data, with its seams showing. Small economics datasets, repaired and charted. Data: https://macroeconomics.shadw.app/data/ (MIT).
+
+- [Who Holds the World's Oil? Macroeconomics Data, Charted · MacroEconomics](https://macroeconomics.shadw.app/): Proved oil reserves counted three ways, inflation as purchasing power, port rankings, the CFA franc and quadratic funding: small economics datasets, repaired and charted with their sources and gaps shown.
+- [Oil Reserves and Production: Who Has the Oil and Who Is Counting · MacroEconomics](https://macroeconomics.shadw.app/oil): Proved oil reserves by the US EIA, OPEC and BP side by side for 41 countries, where they disagree and why, and the ten largest producers in September 2023.
+- [Inflation as Purchasing Power: What 100 from 1960 Buys Today · MacroEconomics](https://macroeconomics.shadw.app/inflation): Inflation shown as purchasing power: what 100 units of money from 1960 buys each year in Australia, Austria, Belgium and Burkina Faso, plus yearly inflation for 18 World Bank rows with gaps shown.
+- [Container Port Rankings 2021: Two Methods, Two Answers · MacroEconomics](https://macroeconomics.shadw.app/ports): The Container Port Performance Index 2021 ranks each port by two methods. See where they agree, which ports move 10 or more places, and all 287 ports in the data.
+- [The CFA Franc: Why 14 African Currencies Are Fixed to the Euro · MacroEconomics](https://macroeconomics.shadw.app/cfa-franc): The CFA franc explained: two currencies, 14 countries, a fixed rate of 655.957 francs to the euro since 1999, its history, the criticisms and the case made for it, with a summary in French.
+- [Quadratic Funding Calculator: How Matching Pools Favor Many Small Gifts · MacroEconomics](https://macroeconomics.shadw.app/funding): Try quadratic funding: change the contributions to three projects and see how a matching pool is split. The rule explained, the inherited formula corrected, and nine other ways projects get funded.
+- [Crypto Investment Strategies and How Each One Loses · MacroEconomics](https://macroeconomics.shadw.app/crypto-strategies): Eight common crypto investment strategies, from dollar-cost averaging to hedging, each set beside the way it goes wrong. Not investment advice.
+- [About the Data: Sources, Gaps and Repairs · MacroEconomics](https://macroeconomics.shadw.app/data): Where every dataset on MacroEconomics comes from, what it covers, what is missing, and each repair made to the inherited files, with JSON downloads.

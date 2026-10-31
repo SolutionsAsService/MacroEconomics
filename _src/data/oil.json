@@ -1,0 +1,474 @@
+{
+  "reserves": {
+    "unit": "million barrels of proved reserves",
+    "sources": "US EIA, OPEC and BP figures as inherited; the year of each figure is not stated in the inherited file",
+    "rows": [
+      {
+        "country": "Venezuela",
+        "eia": 304000.0,
+        "opec": 302809.0,
+        "bp": 300900.0,
+        "production_2021_bpd": 700000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 1189.8
+      },
+      {
+        "country": "Saudi Arabia",
+        "eia": 259000.0,
+        "opec": 266260.0,
+        "bp": 266000.0,
+        "production_2021_bpd": 10846000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 65.4
+      },
+      {
+        "country": "Iran",
+        "eia": 209000.0,
+        "opec": 208600.0,
+        "bp": 155600.0,
+        "production_2021_bpd": 3511000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 163.1
+      },
+      {
+        "country": "Canada",
+        "eia": 170000.0,
+        "opec": 4421.0,
+        "bp": 172200.0,
+        "production_2021_bpd": 5663000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 82.2
+      },
+      {
+        "country": "Iraq",
+        "eia": 145000.0,
+        "opec": 147223.0,
+        "bp": 143100.0,
+        "production_2021_bpd": 4188000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 94.9
+      },
+      {
+        "country": "Kuwait",
+        "eia": 102000.0,
+        "opec": 104000.0,
+        "bp": 104000.0,
+        "production_2021_bpd": 2715000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 102.9
+      },
+      {
+        "country": "United Arab Emirates",
+        "eia": 98000.0,
+        "opec": 111000.0,
+        "bp": 111000.0,
+        "production_2021_bpd": 3638000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 73.8
+      },
+      {
+        "country": "Russia",
+        "eia": 80000.0,
+        "opec": 80000.0,
+        "bp": 102400.0,
+        "production_2021_bpd": 9990000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 21.9
+      },
+      {
+        "country": "Libya",
+        "eia": 48000.0,
+        "opec": 74363.0,
+        "bp": 78400.0,
+        "production_2021_bpd": 1224000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 107.4
+      },
+      {
+        "country": "United States",
+        "eia": 44000.0,
+        "opec": 32773.0,
+        "bp": 55000.0,
+        "production_2021_bpd": 11315000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 10.7
+      },
+      {
+        "country": "Nigeria",
+        "eia": 37000.0,
+        "opec": 37453.0,
+        "bp": 37100.0,
+        "production_2021_bpd": 1684000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 60.2
+      },
+      {
+        "country": "Kazakhstan",
+        "eia": 30000.0,
+        "opec": 30000.0,
+        "bp": 30000.0,
+        "production_2021_bpd": 1849000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 44.5
+      },
+      {
+        "country": "China",
+        "eia": 26000.0,
+        "opec": 25627.0,
+        "bp": 18500.0,
+        "production_2021_bpd": 4341000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 16.4
+      },
+      {
+        "country": "Qatar",
+        "eia": 25000.0,
+        "opec": 25244.0,
+        "bp": 25244.0,
+        "production_2021_bpd": 1808000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 37.9
+      },
+      {
+        "country": "Brazil",
+        "eia": 13000.0,
+        "opec": 12634.0,
+        "bp": 13000.0,
+        "production_2021_bpd": 3054000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 11.7
+      },
+      {
+        "country": "Algeria",
+        "eia": 12000.0,
+        "opec": 12200.0,
+        "bp": 12200.0,
+        "production_2021_bpd": 1363000.0,
+        "block": "Countries",
+        "opec_member": true,
+        "years_of_reserves": 24.1
+      },
+      {
+        "country": "Ecuador",
+        "eia": 8300.0,
+        "opec": 8273.0,
+        "bp": 8000.0,
+        "production_2021_bpd": 475000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 47.9
+      },
+      {
+        "country": "Norway",
+        "eia": 8100.0,
+        "opec": 6376.0,
+        "bp": 8000.0,
+        "production_2021_bpd": 2056000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 10.8
+      },
+      {
+        "country": "Angola",
+        "eia": 7800.0,
+        "opec": 8384.0,
+        "bp": 12700.0,
+        "production_2021_bpd": 1162000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 18.4
+      },
+      {
+        "country": "Azerbaijan",
+        "eia": 7000.0,
+        "opec": 7000.0,
+        "bp": 7000.0,
+        "production_2021_bpd": 709000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": 27.0
+      },
+      {
+        "country": "Mexico",
+        "eia": 5800.0,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": null,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Oman",
+        "eia": 5400.0,
+        "opec": 5373.0,
+        "bp": 5300.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "India",
+        "eia": 4600.0,
+        "opec": 4495.0,
+        "bp": 5680.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Vietnam",
+        "eia": 4400.0,
+        "opec": 4400.0,
+        "bp": 4000.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "South Sudan",
+        "eia": 3800.0,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Malaysia",
+        "eia": 3600.0,
+        "opec": 3600.0,
+        "bp": 3600.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Egypt",
+        "eia": 3300.0,
+        "opec": 4400.0,
+        "bp": 3500.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Yemen",
+        "eia": 3000.0,
+        "opec": null,
+        "bp": 3000.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "United Kingdom",
+        "eia": 2500.0,
+        "opec": 2069.0,
+        "bp": 2800.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Syria",
+        "eia": 2500.0,
+        "opec": 2500.0,
+        "bp": 2500.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Uganda",
+        "eia": 2500.0,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Argentina",
+        "eia": 2500.0,
+        "opec": 2162.0,
+        "bp": 2400.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Indonesia",
+        "eia": 2500.0,
+        "opec": 3310.0,
+        "bp": 3600.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Australia",
+        "eia": 2400.0,
+        "opec": 3985.0,
+        "bp": 4000.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Colombia",
+        "eia": 2000.0,
+        "opec": 1665.0,
+        "bp": 2300.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Gabon",
+        "eia": 2000.0,
+        "opec": 2000.0,
+        "bp": 2000.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": true,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Chad",
+        "eia": 1500.0,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Guyana",
+        "eia": null,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": 117000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Namibia",
+        "eia": null,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": null,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Suriname",
+        "eia": null,
+        "opec": null,
+        "bp": null,
+        "production_2021_bpd": 14000.0,
+        "block": "Countries",
+        "opec_member": false,
+        "years_of_reserves": null
+      },
+      {
+        "country": "Congo",
+        "eia": null,
+        "opec": 2900.0,
+        "bp": 1600.0,
+        "production_2021_bpd": null,
+        "block": "OilData",
+        "opec_member": true,
+        "years_of_reserves": null
+      }
+    ]
+  },
+  "production": {
+    "unit": "barrels per day",
+    "month": "September 2023",
+    "rows": [
+      {
+        "country": "United States",
+        "bpd": 12900000,
+        "opec": false
+      },
+      {
+        "country": "Russia",
+        "bpd": 9480000,
+        "opec": false
+      },
+      {
+        "country": "Saudi Arabia",
+        "bpd": 9060000,
+        "opec": true
+      },
+      {
+        "country": "Canada",
+        "bpd": 4778973,
+        "opec": false
+      },
+      {
+        "country": "Iraq",
+        "bpd": 4340000,
+        "opec": true
+      },
+      {
+        "country": "China",
+        "bpd": 4016664,
+        "opec": false
+      },
+      {
+        "country": "Brazil",
+        "bpd": 3670000,
+        "opec": false
+      },
+      {
+        "country": "United Arab Emirates",
+        "bpd": 3250000,
+        "opec": true
+      },
+      {
+        "country": "Iran",
+        "bpd": 3140000,
+        "opec": true
+      },
+      {
+        "country": "Kuwait",
+        "bpd": 2590000,
+        "opec": true
+      }
+    ]
+  }
+}

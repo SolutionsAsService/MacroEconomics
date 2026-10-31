@@ -1,0 +1,2302 @@
+{
+  "source": "World Bank and S&P Global Market Intelligence, Container Port Performance Index 2021, as inherited",
+  "note": "Two ranking methods: an administrative approach (points) and a statistical approach (index). They usually agree near the top and diverge lower down.",
+  "rows": [
+    {
+      "port": "King Abdullah Port",
+      "country": "Saudi Arabia",
+      "admin_rank": 1,
+      "admin_points": 217.914,
+      "stat_rank": 1,
+      "stat_index": 93.387
+    },
+    {
+      "port": "Salalah",
+      "country": "Oman",
+      "admin_rank": 2,
+      "admin_points": 197.675,
+      "stat_rank": 2,
+      "stat_index": 87.372
+    },
+    {
+      "port": "Hamad Port",
+      "country": "Qatar",
+      "admin_rank": 3,
+      "admin_points": 194.823,
+      "stat_rank": 4,
+      "stat_index": 82.146
+    },
+    {
+      "port": "Yangshan",
+      "country": "China",
+      "admin_rank": 4,
+      "admin_points": 183.455,
+      "stat_rank": 3,
+      "stat_index": 83.522
+    },
+    {
+      "port": "Khalifa Port",
+      "country": "UAE",
+      "admin_rank": 5,
+      "admin_points": 182.649,
+      "stat_rank": 5,
+      "stat_index": 81.052
+    },
+    {
+      "port": "Tanger-Mediterranean",
+      "country": "Morocco",
+      "admin_rank": 6,
+      "admin_points": 178.096,
+      "stat_rank": 6,
+      "stat_index": 80.411
+    },
+    {
+      "port": "Ningbo",
+      "country": "China",
+      "admin_rank": 7,
+      "admin_points": 170.696,
+      "stat_rank": 7,
+      "stat_index": 76.077
+    },
+    {
+      "port": "Jeddah",
+      "country": "Saudi Arabia",
+      "admin_rank": 8,
+      "admin_points": 161.493,
+      "stat_rank": 8,
+      "stat_index": 73.527
+    },
+    {
+      "port": "Guangzhou",
+      "country": "China",
+      "admin_rank": 9,
+      "admin_points": 161.331,
+      "stat_rank": 9,
+      "stat_index": 72.749
+    },
+    {
+      "port": "Yokohama",
+      "country": "Japan",
+      "admin_rank": 10,
+      "admin_points": 159.234,
+      "stat_rank": 12,
+      "stat_index": 66.451
+    },
+    {
+      "port": "Algeciras",
+      "country": "Spain",
+      "admin_rank": 11,
+      "admin_points": 155.851,
+      "stat_rank": 10,
+      "stat_index": 70.323
+    },
+    {
+      "port": "Cartagena (Colombia)",
+      "country": "Colombia",
+      "admin_rank": 12,
+      "admin_points": 152.95,
+      "stat_rank": 15,
+      "stat_index": 61.901
+    },
+    {
+      "port": "Cai Mep",
+      "country": "Vietnam",
+      "admin_rank": 13,
+      "admin_points": 148.433,
+      "stat_rank": 11,
+      "stat_index": 67.529
+    },
+    {
+      "port": "Dammam",
+      "country": "Saudi Arabia",
+      "admin_rank": 14,
+      "admin_points": 143.504,
+      "stat_rank": 14,
+      "stat_index": 62.454
+    },
+    {
+      "port": "Port Said",
+      "country": "Egypt",
+      "admin_rank": 15,
+      "admin_points": 141.336,
+      "stat_rank": 13,
+      "stat_index": 63.39
+    },
+    {
+      "port": "Shekou",
+      "country": "China",
+      "admin_rank": 16,
+      "admin_points": 137.844,
+      "stat_rank": 17,
+      "stat_index": 58.312
+    },
+    {
+      "port": "Chiwan",
+      "country": "China",
+      "admin_rank": 17,
+      "admin_points": 132.828,
+      "stat_rank": 20,
+      "stat_index": 55.013
+    },
+    {
+      "port": "Tanjung Pelepas",
+      "country": "Malaysia",
+      "admin_rank": 18,
+      "admin_points": 131.424,
+      "stat_rank": 16,
+      "stat_index": 59.83
+    },
+    {
+      "port": "Djibouti",
+      "country": "Djibouti",
+      "admin_rank": 19,
+      "admin_points": 129.354,
+      "stat_rank": 19,
+      "stat_index": 55.311
+    },
+    {
+      "port": "Buenaventura",
+      "country": "Colombia",
+      "admin_rank": 20,
+      "admin_points": 124.415,
+      "stat_rank": 23,
+      "stat_index": 53.033
+    },
+    {
+      "port": "Kaohsiung",
+      "country": "Taiwan",
+      "admin_rank": 21,
+      "admin_points": 123.452,
+      "stat_rank": 21,
+      "stat_index": 54.588
+    },
+    {
+      "port": "Barcelona",
+      "country": "Spain",
+      "admin_rank": 22,
+      "admin_points": 119.332,
+      "stat_rank": 19,
+      "stat_index": 55.311
+    },
+    {
+      "port": "Port of Virginia",
+      "country": "USA",
+      "admin_rank": 23,
+      "admin_points": 118.295,
+      "stat_rank": 27,
+      "stat_index": 50.444
+    },
+    {
+      "port": "Busan",
+      "country": "South Korea",
+      "admin_rank": 25,
+      "admin_points": 114.739,
+      "stat_rank": 25,
+      "stat_index": 52.307
+    },
+    {
+      "port": "Pipavav",
+      "country": "India",
+      "admin_rank": 26,
+      "admin_points": 109.823,
+      "stat_rank": 34,
+      "stat_index": 43.713
+    },
+    {
+      "port": "Tianjin",
+      "country": "China",
+      "admin_rank": 27,
+      "admin_points": 109.448,
+      "stat_rank": 26,
+      "stat_index": 51.441
+    },
+    {
+      "port": "Yarimca",
+      "country": "Turkey",
+      "admin_rank": 28,
+      "admin_points": 106.663,
+      "stat_rank": 30,
+      "stat_index": 48.489
+    },
+    {
+      "port": "Miami",
+      "country": "USA",
+      "admin_rank": 29,
+      "admin_points": 105.762,
+      "stat_rank": 39,
+      "stat_index": 40.559
+    },
+    {
+      "port": "Sines",
+      "country": "Portugal",
+      "admin_rank": 30,
+      "admin_points": 105.359,
+      "stat_rank": 35,
+      "stat_index": 42.93
+    },
+    {
+      "port": "Singapore",
+      "country": "Singapore",
+      "admin_rank": 31,
+      "admin_points": 103.562,
+      "stat_rank": 31,
+      "stat_index": 47.816
+    },
+    {
+      "port": "Magdalla",
+      "country": "India",
+      "admin_rank": 32,
+      "admin_points": 103.005,
+      "stat_rank": 41,
+      "stat_index": 37.582
+    },
+    {
+      "port": "Yeosu",
+      "country": "South Korea",
+      "admin_rank": 33,
+      "admin_points": 102.674,
+      "stat_rank": 29,
+      "stat_index": 48.823
+    },
+    {
+      "port": "Mersin",
+      "country": "Turkey",
+      "admin_rank": 34,
+      "admin_points": 102.273,
+      "stat_rank": 28,
+      "stat_index": 49.791
+    },
+    {
+      "port": "Aqaba",
+      "country": "Jordan",
+      "admin_rank": 35,
+      "admin_points": 101.25,
+      "stat_rank": 32,
+      "stat_index": 45.327
+    },
+    {
+      "port": "Osaka",
+      "country": "Japan",
+      "admin_rank": 36,
+      "admin_points": 100.987,
+      "stat_rank": 44,
+      "stat_index": 36.35
+    },
+    {
+      "port": "Vung Tau",
+      "country": "Vietnam",
+      "admin_rank": 37,
+      "admin_points": 100.873,
+      "stat_rank": 271,
+      "stat_index": -5.658
+    },
+    {
+      "port": "Jebel Ali",
+      "country": "UAE",
+      "admin_rank": 38,
+      "admin_points": 100.226,
+      "stat_rank": 42,
+      "stat_index": 37.549
+    },
+    {
+      "port": "Coronel",
+      "country": "Chile",
+      "admin_rank": 39,
+      "admin_points": 100.17,
+      "stat_rank": 49,
+      "stat_index": 33.796
+    },
+    {
+      "port": "Kobe",
+      "country": "Japan",
+      "admin_rank": 40,
+      "admin_points": 99.002,
+      "stat_rank": 37,
+      "stat_index": 41.998
+    },
+    {
+      "port": "Shimizu",
+      "country": "Japan",
+      "admin_rank": 41,
+      "admin_points": 96.454,
+      "stat_rank": 45,
+      "stat_index": 35.895
+    },
+    {
+      "port": "Qingdao",
+      "country": "China",
+      "admin_rank": 42,
+      "admin_points": 95.043,
+      "stat_rank": 33,
+      "stat_index": 44.227
+    },
+    {
+      "port": "Ambarli",
+      "country": "Turkey",
+      "admin_rank": 43,
+      "admin_points": 93.586,
+      "stat_rank": 36,
+      "stat_index": 42.53
+    },
+    {
+      "port": "Nagoya",
+      "country": "Japan",
+      "admin_rank": 53,
+      "admin_points": 81.608,
+      "stat_rank": 43,
+      "stat_index": 37.197
+    },
+    {
+      "port": "Mawan",
+      "country": "China",
+      "admin_rank": 44,
+      "admin_points": 92.571,
+      "stat_rank": 110,
+      "stat_index": 14.962
+    },
+    {
+      "port": "Xiamen",
+      "country": "China",
+      "admin_rank": 45,
+      "admin_points": 92.212,
+      "stat_rank": 40,
+      "stat_index": 39.737
+    },
+    {
+      "port": "Halifax",
+      "country": "Canada",
+      "admin_rank": 46,
+      "admin_points": 91.744,
+      "stat_rank": 18,
+      "stat_index": 56.91
+    },
+    {
+      "port": "Sohar",
+      "country": "Oman",
+      "admin_rank": 47,
+      "admin_points": 89.717,
+      "stat_rank": 47,
+      "stat_index": 35.096
+    },
+    {
+      "port": "Mundra",
+      "country": "India",
+      "admin_rank": 48,
+      "admin_points": 86.563,
+      "stat_rank": 46,
+      "stat_index": 35.568
+    },
+    {
+      "port": "Wilmington (North Carolina)",
+      "country": "USA",
+      "admin_rank": 49,
+      "admin_points": 84.187,
+      "stat_rank": 57,
+      "stat_index": 29.111
+    },
+    {
+      "port": "Hong Kong",
+      "country": "China",
+      "admin_rank": 50,
+      "admin_points": 83.775,
+      "stat_rank": 38,
+      "stat_index": 41.377
+    },
+    {
+      "port": "Imbituba",
+      "country": "Brazil",
+      "admin_rank": 51,
+      "admin_points": 82.974,
+      "stat_rank": 106,
+      "stat_index": 15.827
+    },
+    {
+      "port": "Incheon",
+      "country": "South Korea",
+      "admin_rank": 52,
+      "admin_points": 82.106,
+      "stat_rank": 53,
+      "stat_index": 31.82
+    },
+    {
+      "port": "Jawaharlal Nehru Port",
+      "country": "India",
+      "admin_rank": 54,
+      "admin_points": 79.672,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Philadelphia",
+      "country": "USA",
+      "admin_rank": 55,
+      "admin_points": 74.759,
+      "stat_rank": 58,
+      "stat_index": 28.729
+    },
+    {
+      "port": "Tokyo",
+      "country": "Japan",
+      "admin_rank": 56,
+      "admin_points": 74.453,
+      "stat_rank": 51,
+      "stat_index": 32.543
+    },
+    {
+      "port": "Laem Chabang",
+      "country": "Thailand",
+      "admin_rank": 57,
+      "admin_points": 74.024,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Damietta",
+      "country": "Egypt",
+      "admin_rank": 58,
+      "admin_points": 72.703,
+      "stat_rank": 56,
+      "stat_index": 29.427
+    },
+    {
+      "port": "Bremerhaven",
+      "country": "Germany",
+      "admin_rank": 59,
+      "admin_points": 67.922,
+      "stat_rank": 54,
+      "stat_index": 29.896
+    },
+    {
+      "port": "Balboa",
+      "country": "Panama",
+      "admin_rank": 60,
+      "admin_points": 67.846,
+      "stat_rank": 55,
+      "stat_index": 29.611
+    },
+    {
+      "port": "Tampa",
+      "country": "USA",
+      "admin_rank": 61,
+      "admin_points": 67.841,
+      "stat_rank": 62,
+      "stat_index": 25.486
+    },
+    {
+      "port": "Khalifa Bin Salman",
+      "country": "Bahrain",
+      "admin_rank": 62,
+      "admin_points": 67.72,
+      "stat_rank": 61,
+      "stat_index": 26.488
+    },
+    {
+      "port": "Haiphong",
+      "country": "Vietnam",
+      "admin_rank": 63,
+      "admin_points": 67.12,
+      "stat_rank": 63,
+      "stat_index": 24.603
+    },
+    {
+      "port": "Port Tampa Bay",
+      "country": "USA",
+      "admin_rank": 64,
+      "admin_points": 64.318,
+      "stat_rank": 66,
+      "stat_index": 24.194
+    },
+    {
+      "port": "Gioia Tauro",
+      "country": "Italy",
+      "admin_rank": 65,
+      "admin_points": 62.42,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Posorja",
+      "country": "Ecuador",
+      "admin_rank": 66,
+      "admin_points": 61.465,
+      "stat_rank": 65,
+      "stat_index": 24.225
+    },
+    {
+      "port": "Keelung",
+      "country": "Taiwan",
+      "admin_rank": 67,
+      "admin_points": 59.776,
+      "stat_rank": 77,
+      "stat_index": 20.716
+    },
+    {
+      "port": "Hazira",
+      "country": "India",
+      "admin_rank": 68,
+      "admin_points": 59.142,
+      "stat_rank": 69,
+      "stat_index": 23.585
+    },
+    {
+      "port": "Port Klang",
+      "country": "Malaysia",
+      "admin_rank": 69,
+      "admin_points": 59.038,
+      "stat_rank": 59,
+      "stat_index": 28.629
+    },
+    {
+      "port": "Iskenderun",
+      "country": "Turkey",
+      "admin_rank": 70,
+      "admin_points": 59.012,
+      "stat_rank": 72,
+      "stat_index": 21.916
+    },
+    {
+      "port": "Santa Cruz de Tenerife",
+      "country": "Spain",
+      "admin_rank": 71,
+      "admin_points": 58.835,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Itapoa",
+      "country": "Brazil",
+      "admin_rank": 72,
+      "admin_points": 57.826,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Colon",
+      "country": "Panama",
+      "admin_rank": 73,
+      "admin_points": 57.339,
+      "stat_rank": 64,
+      "stat_index": 24.562
+    },
+    {
+      "port": "Marsaxlokk",
+      "country": "Malta",
+      "admin_rank": 74,
+      "admin_points": 54.994,
+      "stat_rank": 74,
+      "stat_index": 21.723
+    },
+    {
+      "port": "Paita",
+      "country": "Peru",
+      "admin_rank": 75,
+      "admin_points": 54.742,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Baltimore (Maryland)",
+      "country": "USA",
+      "admin_rank": 76,
+      "admin_points": 54.641,
+      "stat_rank": 68,
+      "stat_index": 23.73
+    },
+    {
+      "port": "Diliskelesi",
+      "country": "Turkey",
+      "admin_rank": 77,
+      "admin_points": 54.305,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Lianyungang",
+      "country": "China",
+      "admin_rank": 78,
+      "admin_points": 53.418,
+      "stat_rank": 73,
+      "stat_index": 21.818
+    },
+    {
+      "port": "Chennai",
+      "country": "India",
+      "admin_rank": 79,
+      "admin_points": 53.394,
+      "stat_rank": 92,
+      "stat_index": 18.847
+    },
+    {
+      "port": "Johor",
+      "country": "Malaysia",
+      "admin_rank": 80,
+      "admin_points": 52.565,
+      "stat_rank": 79,
+      "stat_index": 20.597
+    },
+    {
+      "port": "Muhammad Bin Qasim",
+      "country": "Pakistan",
+      "admin_rank": 81,
+      "admin_points": 50.962,
+      "stat_rank": 75,
+      "stat_index": 21.688
+    },
+    {
+      "port": "Aarhus",
+      "country": "Denmark",
+      "admin_rank": 82,
+      "admin_points": 50.953,
+      "stat_rank": 67,
+      "stat_index": 24.076
+    },
+    {
+      "port": "Dalian",
+      "country": "China",
+      "admin_rank": 83,
+      "admin_points": 50.94,
+      "stat_rank": 81,
+      "stat_index": 20.193
+    },
+    {
+      "port": "Kamarajar",
+      "country": "India",
+      "admin_rank": 84,
+      "admin_points": 50.258,
+      "stat_rank": 84,
+      "stat_index": 20.015
+    },
+    {
+      "port": "Altamira",
+      "country": "Mexico",
+      "admin_rank": 85,
+      "admin_points": 50.07,
+      "stat_rank": 85,
+      "stat_index": 20.014
+    },
+    {
+      "port": "Puerto Limon",
+      "country": "Costa Rica",
+      "admin_rank": 86,
+      "admin_points": 47.807,
+      "stat_rank": 86,
+      "stat_index": 20.013
+    },
+    {
+      "port": "Tripoli (Lebanon)",
+      "country": "Lebanon",
+      "admin_rank": 87,
+      "admin_points": 47.491,
+      "stat_rank": 89,
+      "stat_index": 19.531
+    },
+    {
+      "port": "Noumea",
+      "country": "New Caledonia",
+      "admin_rank": 88,
+      "admin_points": 46.92,
+      "stat_rank": 93,
+      "stat_index": 18.277
+    },
+    {
+      "port": "Manzanillo (Mexico)",
+      "country": "Mexico",
+      "admin_rank": 89,
+      "admin_points": 46.685,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Karachi",
+      "country": "Pakistan",
+      "admin_rank": 90,
+      "admin_points": 46.399,
+      "stat_rank": 90,
+      "stat_index": 19.459
+    },
+    {
+      "port": "Yokkaichi",
+      "country": "Japan",
+      "admin_rank": 91,
+      "admin_points": 46.268,
+      "stat_rank": 101,
+      "stat_index": 16.864
+    },
+    {
+      "port": "Lazaro Cardenas",
+      "country": "Mexico",
+      "admin_rank": 92,
+      "admin_points": 46.05,
+      "stat_rank": 109,
+      "stat_index": 15.138
+    },
+    {
+      "port": "Rio de Janeiro",
+      "country": "Brazil",
+      "admin_rank": 93,
+      "admin_points": 45.956,
+      "stat_rank": 83,
+      "stat_index": 20.056
+    },
+    {
+      "port": "Savona-Vado",
+      "country": "Italy",
+      "admin_rank": 94,
+      "admin_points": 45.9,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Krishnapatnam",
+      "country": "India",
+      "admin_rank": 95,
+      "admin_points": 45.824,
+      "stat_rank": 87,
+      "stat_index": 19.994
+    },
+    {
+      "port": "Antwerp",
+      "country": "Belgium",
+      "admin_rank": 96,
+      "admin_points": 45.146,
+      "stat_rank": 78,
+      "stat_index": 20.671
+    },
+    {
+      "port": "Rio Grande (Brazil)",
+      "country": "Brazil",
+      "admin_rank": 97,
+      "admin_points": 44.636,
+      "stat_rank": 91,
+      "stat_index": 19.297
+    },
+    {
+      "port": "Visakhapatnam",
+      "country": "India",
+      "admin_rank": 98,
+      "admin_points": 44.483,
+      "stat_rank": 97,
+      "stat_index": 17.16
+    },
+    {
+      "port": "Cochin",
+      "country": "India",
+      "admin_rank": 99,
+      "admin_points": 44.28,
+      "stat_rank": 98,
+      "stat_index": 17.057
+    },
+    {
+      "port": "Jacksonville",
+      "country": "USA",
+      "admin_rank": 100,
+      "admin_points": 44.256,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Piraeus",
+      "country": "Greece",
+      "admin_rank": 101,
+      "admin_points": 43.772,
+      "stat_rank": 82,
+      "stat_index": 20.096
+    },
+    {
+      "port": "Ensenada",
+      "country": "Mexico",
+      "admin_rank": 102,
+      "admin_points": 43.588,
+      "stat_rank": 86,
+      "stat_index": 20.013
+    },
+    {
+      "port": "Siam Seaport",
+      "country": "Thailand",
+      "admin_rank": 103,
+      "admin_points": 43.527,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Veracruz",
+      "country": "Mexico",
+      "admin_rank": 104,
+      "admin_points": 43.117,
+      "stat_rank": 85,
+      "stat_index": 20.014
+    },
+    {
+      "port": "Nantes Saint-Nazaire",
+      "country": "France",
+      "admin_rank": 105,
+      "admin_points": 41.619,
+      "stat_rank": 104,
+      "stat_index": 16.047
+    },
+    {
+      "port": "Kattupalli",
+      "country": "India",
+      "admin_rank": 106,
+      "admin_points": 41.494,
+      "stat_rank": 106,
+      "stat_index": 15.827
+    },
+    {
+      "port": "TanJung Perak",
+      "country": "Indonesia",
+      "admin_rank": 107,
+      "admin_points": 41.333,
+      "stat_rank": 103,
+      "stat_index": 16.338
+    },
+    {
+      "port": "Valparaiso",
+      "country": "Chile",
+      "admin_rank": 108,
+      "admin_points": 40.314,
+      "stat_rank": 113,
+      "stat_index": 14.494
+    },
+    {
+      "port": "Pointe-à-Pitre",
+      "country": "Guadeloupe",
+      "admin_rank": 109,
+      "admin_points": 40.162,
+      "stat_rank": 107,
+      "stat_index": 15.702
+    },
+    {
+      "port": "Puerto Quetzal",
+      "country": "Guatemala",
+      "admin_rank": 110,
+      "admin_points": 36.422,
+      "stat_rank": 134,
+      "stat_index": 9.34
+    },
+    {
+      "port": "Penang",
+      "country": "Malaysia",
+      "admin_rank": 111,
+      "admin_points": 36.34,
+      "stat_rank": 116,
+      "stat_index": 13.331
+    },
+    {
+      "port": "Salvador",
+      "country": "Brazil",
+      "admin_rank": 112,
+      "admin_points": 36.123,
+      "stat_rank": 130,
+      "stat_index": 9.682
+    },
+    {
+      "port": "Gemlik",
+      "country": "Turkey",
+      "admin_rank": 113,
+      "admin_points": 36.099,
+      "stat_rank": 105,
+      "stat_index": 15.943
+    },
+    {
+      "port": "Caucedo",
+      "country": "Dominican Republic",
+      "admin_rank": 114,
+      "admin_points": 34.291,
+      "stat_rank": 99,
+      "stat_index": 16.868
+    },
+    {
+      "port": "Taichung",
+      "country": "Taiwan",
+      "admin_rank": 125,
+      "admin_points": 27.616,
+      "stat_rank": 125,
+      "stat_index": 10.436
+    },
+    {
+      "port": "Lirquen",
+      "country": "Chile",
+      "admin_rank": 126,
+      "admin_points": 26.883,
+      "stat_rank": 118,
+      "stat_index": 12.555
+    },
+    {
+      "port": "Omaezaki",
+      "country": "Japan",
+      "admin_rank": 127,
+      "admin_points": 26.855,
+      "stat_rank": 120,
+      "stat_index": 11.448
+    },
+    {
+      "port": "Hakata",
+      "country": "Japan",
+      "admin_rank": 128,
+      "admin_points": 26.746,
+      "stat_rank": 117,
+      "stat_index": 12.58
+    },
+    {
+      "port": "Koper",
+      "country": "Slovenia",
+      "admin_rank": 129,
+      "admin_points": 26.321,
+      "stat_rank": 218,
+      "stat_index": 1.152
+    },
+    {
+      "port": "Charleston",
+      "country": "USA",
+      "admin_rank": 130,
+      "admin_points": 26.183,
+      "stat_rank": null,
+      "stat_index": null
+    },
+    {
+      "port": "Kingston (Jamaica)",
+      "country": "Jamaica",
+      "admin_rank": 131,
+      "admin_points": 25.432,
+      "stat_rank": 128,
+      "stat_index": 10.158
+    },
+    {
+      "port": "Moji",
+      "country": "Japan",
+      "admin_rank": 132,
+      "admin_points": 24.923,
+      "stat_rank": 121,
+      "stat_index": 10.971
+    },
+    {
+      "port": "Fuzhou",
+      "country": "China",
+      "admin_rank": 133,
+      "admin_points": 24.656,
+      "stat_rank": 96,
+      "stat_index": 17.317
+    },
+    {
+      "port": "Cristobal",
+      "country": "Panama",
+      "admin_rank": 134,
+      "admin_points": 24.246,
+      "stat_rank": 134,
+      "stat_index": 9.34
+    },
+    {
+      "port": "Valencia",
+      "country": "Spain",
+      "admin_rank": 135,
+      "admin_points": 23.809,
+      "stat_rank": 180,
+      "stat_index": 4.685
+    },
+    {
+      "port": "Zhoushan",
+      "country": "China",
+      "admin_rank": 136,
+      "admin_points": 22.522,
+      "stat_rank": 228,
+      "stat_index": 0.225
+    },
+    {
+      "port": "Malaga",
+      "country": "Spain",
+      "admin_rank": 137,
+      "admin_points": 22.325,
+      "stat_rank": 140,
+      "stat_index": 8.27
+    },
+    {
+      "port": "Port Bronka",
+      "country": "Russia",
+      "admin_rank": 138,
+      "admin_points": 22.021,
+      "stat_rank": 131,
+      "stat_index": 9.559
+    },
+    {
+      "port": "El Dekheila",
+      "country": "Egypt",
+      "admin_rank": 139,
+      "admin_points": 21.701,
+      "stat_rank": 133,
+      "stat_index": 9.355
+    },
+    {
+      "port": "Saigon",
+      "country": "Vietnam",
+      "admin_rank": 140,
+      "admin_points": 21.08,
+      "stat_rank": 125,
+      "stat_index": 10.436
+    },
+    {
+      "port": "Buenos Aires",
+      "country": "Argentina",
+      "admin_rank": 141,
+      "admin_points": 21.032,
+      "stat_rank": 124,
+      "stat_index": 10.536
+    },
+    {
+      "port": "Da Chan Bay Terminal One",
+      "country": "China",
+      "admin_rank": 142,
+      "admin_points": 20.563,
+      "stat_rank": 122,
+      "stat_index": 10.951
+    },
+    {
+      "port": "Santa Marta",
+      "country": "Colombia",
+      "admin_rank": 143,
+      "admin_points": 20.317,
+      "stat_rank": 137,
+      "stat_index": 8.715
+    },
+    {
+      "port": "Puerto Cortes",
+      "country": "Honduras",
+      "admin_rank": 144,
+      "admin_points": 20.098,
+      "stat_rank": 141,
+      "stat_index": 8.141
+    },
+    {
+      "port": "Cat Lai",
+      "country": "Vietnam",
+      "admin_rank": 145,
+      "admin_points": 19.813,
+      "stat_rank": 132,
+      "stat_index": 9.46
+    },
+    {
+      "port": "Oslo",
+      "country": "Norway",
+      "admin_rank": 146,
+      "admin_points": 18.877,
+      "stat_rank": 142,
+      "stat_index": 8.025
+    },
+    {
+      "port": "Limassol",
+      "country": "Cyprus",
+      "admin_rank": 147,
+      "admin_points": 18.415,
+      "stat_rank": 172,
+      "stat_index": 5.203
+    },
+    {
+      "port": "Borusan",
+      "country": "Turkey",
+      "admin_rank": 148,
+      "admin_points": 18.332,
+      "stat_rank": 148,
+      "stat_index": 7.57
+    },
+    {
+      "port": "Vigo",
+      "country": "Spain",
+      "admin_rank": 149,
+      "admin_points": 18.234,
+      "stat_rank": 138,
+      "stat_index": 8.62
+    },
+    {
+      "port": "Umm Qasr",
+      "country": "Iraq",
+      "admin_rank": 150,
+      "admin_points": 17.973,
+      "stat_rank": 150,
+      "stat_index": 7.384
+    },
+    {
+      "port": "Wellington",
+      "country": "New Zealand",
+      "admin_rank": 151,
+      "admin_points": 17.761,
+      "stat_rank": 192,
+      "stat_index": 3.722
+    },
+    {
+      "port": "Port Akdeniz",
+      "country": "Turkey",
+      "admin_rank": 152,
+      "admin_points": 17.753,
+      "stat_rank": 152,
+      "stat_index": 6.911
+    },
+    {
+      "port": "Tanjung Emas",
+      "country": "Indonesia",
+      "admin_rank": 153,
+      "admin_points": 17.284,
+      "stat_rank": 144,
+      "stat_index": 7.855
+    },
+    {
+      "port": "Quy Nhon",
+      "country": "Vietnam",
+      "admin_rank": 154,
+      "admin_points": 17.144,
+      "stat_rank": 146,
+      "stat_index": 7.64
+    },
+    {
+      "port": "Sharjah",
+      "country": "UAE",
+      "admin_rank": 155,
+      "admin_points": 16.731,
+      "stat_rank": 148,
+      "stat_index": 7.57
+    },
+    {
+      "port": "Puerto Bolivar (Ecuador)",
+      "country": "Ecuador",
+      "admin_rank": 156,
+      "admin_points": 16.72,
+      "stat_rank": 153,
+      "stat_index": 6.649
+    },
+    {
+      "port": "San Juan",
+      "country": "Puerto Rico",
+      "admin_rank": 157,
+      "admin_points": 16.477,
+      "stat_rank": 143,
+      "stat_index": 8.022
+    },
+    {
+      "port": "Rio Haina",
+      "country": "Dominican Republic",
+      "admin_rank": 158,
+      "admin_points": 16.156,
+      "stat_rank": 155,
+      "stat_index": 6.621
+    },
+    {
+      "port": "Barranquilla",
+      "country": "Colombia",
+      "admin_rank": 159,
+      "admin_points": 16.034,
+      "stat_rank": 163,
+      "stat_index": 5.981
+    },
+    {
+      "port": "Tarragona",
+      "country": "Spain",
+      "admin_rank": 160,
+      "admin_points": 15.948,
+      "stat_rank": 157,
+      "stat_index": 6.501
+    },
+    {
+      "port": "Danang",
+      "country": "Vietnam",
+      "admin_rank": 161,
+      "admin_points": 15.78,
+      "stat_rank": 156,
+      "stat_index": 6.541
+    },
+    {
+      "port": "Civitavecchia",
+      "country": "Italy",
+      "admin_rank": 162,
+      "admin_points": 15.62,
+      "stat_rank": 161,
+      "stat_index": 6.047
+    },
+    {
+      "port": "Mobile",
+      "country": "USA",
+      "admin_rank": 163,
+      "admin_points": 15.366,
+      "stat_rank": 150,
+      "stat_index": 7.384
+    },
+    {
+      "port": "Cebu",
+      "country": "Philippines",
+      "admin_rank": 164,
+      "admin_points": 14.903,
+      "stat_rank": 171,
+      "stat_index": 5.364
+    },
+    {
+      "port": "Shantou",
+      "country": "China",
+      "admin_rank": 165,
+      "admin_points": 14.432,
+      "stat_rank": 165,
+      "stat_index": 5.752
+    },
+    {
+      "port": "San Vicente",
+      "country": "Chile",
+      "admin_rank": 166,
+      "admin_points": 14.418,
+      "stat_rank": 166,
+      "stat_index": 5.744
+    },
+    {
+      "port": "Papeete",
+      "country": "French Polynesia",
+      "admin_rank": 167,
+      "admin_points": 14.229,
+      "stat_rank": 167,
+      "stat_index": 5.739
+    },
+    {
+      "port": "Helsingborg",
+      "country": "Sweden",
+      "admin_rank": 168,
+      "admin_points": 14.121,
+      "stat_rank": 168,
+      "stat_index": 5.537
+    },
+    {
+      "port": "Chornomorsk",
+      "country": "Ukraine",
+      "admin_rank": 169,
+      "admin_points": 13.895,
+      "stat_rank": 169,
+      "stat_index": 5.524
+    },
+    {
+      "port": "Puerto Barrios",
+      "country": "Guatemala",
+      "admin_rank": 170,
+      "admin_points": 13.762,
+      "stat_rank": 170,
+      "stat_index": 5.482
+    },
+    {
+      "port": "Matadi",
+      "country": "Democratic Republic of the Congo",
+      "admin_rank": 171,
+      "admin_points": 13.688,
+      "stat_rank": 176,
+      "stat_index": 4.869
+    },
+    {
+      "port": "Novorossiysk",
+      "country": "Russia",
+      "admin_rank": 172,
+      "admin_points": 13.554,
+      "stat_rank": 159,
+      "stat_index": 6.273
+    },
+    {
+      "port": "Ploče",
+      "country": "Croatia",
+      "admin_rank": 173,
+      "admin_points": 13.197,
+      "stat_rank": 181,
+      "stat_index": 4.675
+    },
+    {
+      "port": "Latakia",
+      "country": "Syria",
+      "admin_rank": 174,
+      "admin_points": 13.064,
+      "stat_rank": 173,
+      "stat_index": 5.061
+    },
+    {
+      "port": "Muuga-Port of Tallinn",
+      "country": "Estonia",
+      "admin_rank": 175,
+      "admin_points": 12.837,
+      "stat_rank": 175,
+      "stat_index": 4.921
+    },
+    {
+      "port": "Fredericia",
+      "country": "Denmark",
+      "admin_rank": 176,
+      "admin_points": 12.83,
+      "stat_rank": 183,
+      "stat_index": 4.634
+    },
+    {
+      "port": "Philipsburg",
+      "country": "Sint Maarten",
+      "admin_rank": 177,
+      "admin_points": 12.744,
+      "stat_rank": 174,
+      "stat_index": 5.027
+    },
+    {
+      "port": "Port-au-Prince",
+      "country": "Haiti",
+      "admin_rank": 178,
+      "admin_points": 12.047,
+      "stat_rank": 175,
+      "stat_index": 4.921
+    },
+    {
+      "port": "Ancona",
+      "country": "Italy",
+      "admin_rank": 179,
+      "admin_points": 11.804,
+      "stat_rank": 168,
+      "stat_index": 5.537
+    },
+    {
+      "port": "Helsinki",
+      "country": "Finland",
+      "admin_rank": 180,
+      "admin_points": 11.625,
+      "stat_rank": 169,
+      "stat_index": 5.524
+    },
+    {
+      "port": "Odessa",
+      "country": "Ukraine",
+      "admin_rank": 209,
+      "admin_points": 4.411,
+      "stat_rank": 209,
+      "stat_index": 1.804
+    },
+    {
+      "port": "Larvik",
+      "country": "Norway",
+      "admin_rank": 210,
+      "admin_points": 4.325,
+      "stat_rank": 210,
+      "stat_index": 1.793
+    },
+    {
+      "port": "Kawasaki",
+      "country": "Japan",
+      "admin_rank": 211,
+      "admin_points": 4.222,
+      "stat_rank": 211,
+      "stat_index": 1.682
+    },
+    {
+      "port": "Nassau",
+      "country": "Bahamas",
+      "admin_rank": 212,
+      "admin_points": 4.013,
+      "stat_rank": 212,
+      "stat_index": 1.578
+    },
+    {
+      "port": "Trapani",
+      "country": "Italy",
+      "admin_rank": 213,
+      "admin_points": 3.98,
+      "stat_rank": 209,
+      "stat_index": 1.804
+    },
+    {
+      "port": "Riga",
+      "country": "Latvia",
+      "admin_rank": 214,
+      "admin_points": 3.903,
+      "stat_rank": 207,
+      "stat_index": 2.089
+    },
+    {
+      "port": "Lisbon",
+      "country": "Portugal",
+      "admin_rank": 215,
+      "admin_points": 3.589,
+      "stat_rank": 220,
+      "stat_index": 0.836
+    },
+    {
+      "port": "Heraklion",
+      "country": "Greece",
+      "admin_rank": 216,
+      "admin_points": 3.267,
+      "stat_rank": 212,
+      "stat_index": 1.578
+    },
+    {
+      "port": "Vitória",
+      "country": "Brazil",
+      "admin_rank": 217,
+      "admin_points": 3.264,
+      "stat_rank": 214,
+      "stat_index": 1.535
+    },
+    {
+      "port": "Bell Bay",
+      "country": "Australia",
+      "admin_rank": 218,
+      "admin_points": 3.146,
+      "stat_rank": 211,
+      "stat_index": 1.682
+    },
+    {
+      "port": "Tartous",
+      "country": "Syria",
+      "admin_rank": 219,
+      "admin_points": 2.818,
+      "stat_rank": 215,
+      "stat_index": 1.534
+    },
+    {
+      "port": "Chu Lai",
+      "country": "Vietnam",
+      "admin_rank": 220,
+      "admin_points": 2.797,
+      "stat_rank": 216,
+      "stat_index": 1.476
+    },
+    {
+      "port": "Cadiz",
+      "country": "Spain",
+      "admin_rank": 221,
+      "admin_points": 2.588,
+      "stat_rank": 217,
+      "stat_index": 1.288
+    },
+    {
+      "port": "Mariel",
+      "country": "Cuba",
+      "admin_rank": 222,
+      "admin_points": 1.973,
+      "stat_rank": 219,
+      "stat_index": 1.047
+    },
+    {
+      "port": "Kristiansand",
+      "country": "Norway",
+      "admin_rank": 223,
+      "admin_points": 1.764,
+      "stat_rank": 221,
+      "stat_index": 0.831
+    },
+    {
+      "port": "Nemrut Bay",
+      "country": "Turkey",
+      "admin_rank": 224,
+      "admin_points": 1.695,
+      "stat_rank": 242,
+      "stat_index": -0.745
+    },
+    {
+      "port": "Varna",
+      "country": "Bulgaria",
+      "admin_rank": 225,
+      "admin_points": 1.502,
+      "stat_rank": 248,
+      "stat_index": -1.584
+    },
+    {
+      "port": "Poti",
+      "country": "Georgia",
+      "admin_rank": 226,
+      "admin_points": 1.404,
+      "stat_rank": 226,
+      "stat_index": 0.415
+    },
+    {
+      "port": "Mazatlan",
+      "country": "Mexico",
+      "admin_rank": 227,
+      "admin_points": 1.394,
+      "stat_rank": 240,
+      "stat_index": -0.524
+    },
+    {
+      "port": "Bordeaux",
+      "country": "France",
+      "admin_rank": 228,
+      "admin_points": 1.158,
+      "stat_rank": 228,
+      "stat_index": 0.225
+    },
+    {
+      "port": "Alicante",
+      "country": "Spain",
+      "admin_rank": 229,
+      "admin_points": 1.007,
+      "stat_rank": 222,
+      "stat_index": 0.745
+    },
+    {
+      "port": "Kompong Som",
+      "country": "Cambodia",
+      "admin_rank": 230,
+      "admin_points": 0.902,
+      "stat_rank": 243,
+      "stat_index": -0.874
+    },
+    {
+      "port": "Mejillones",
+      "country": "Chile",
+      "admin_rank": 231,
+      "admin_points": 0.86,
+      "stat_rank": 241,
+      "stat_index": -0.564
+    },
+    {
+      "port": "Hamburg",
+      "country": "Germany",
+      "admin_rank": 232,
+      "admin_points": 0.185,
+      "stat_rank": 258,
+      "stat_index": -3.518
+    },
+    {
+      "port": "Wilhelmshaven",
+      "country": "Germany",
+      "admin_rank": 233,
+      "admin_points": -0.02,
+      "stat_rank": 204,
+      "stat_index": 2.236
+    },
+    {
+      "port": "Antofagasta",
+      "country": "Chile",
+      "admin_rank": 234,
+      "admin_points": -0.322,
+      "stat_rank": 273,
+      "stat_index": -5.76
+    },
+    {
+      "port": "Venice",
+      "country": "Italy",
+      "admin_rank": 235,
+      "admin_points": -0.39,
+      "stat_rank": 230,
+      "stat_index": 0.147
+    },
+    {
+      "port": "Gijon",
+      "country": "Spain",
+      "admin_rank": 236,
+      "admin_points": -0.544,
+      "stat_rank": 224,
+      "stat_index": 0.596
+    },
+    {
+      "port": "Rades",
+      "country": "Tunisia",
+      "admin_rank": 237,
+      "admin_points": -0.821,
+      "stat_rank": 232,
+      "stat_index": -0.164
+    },
+    {
+      "port": "Georgetown (Guyana)",
+      "country": "Guyana",
+      "admin_rank": 238,
+      "admin_points": -0.963,
+      "stat_rank": 229,
+      "stat_index": 0.21
+    },
+    {
+      "port": "Tomakomai",
+      "country": "Japan",
+      "admin_rank": 239,
+      "admin_points": -1.381,
+      "stat_rank": 237,
+      "stat_index": -0.448
+    },
+    {
+      "port": "Saint John",
+      "country": "Canada",
+      "admin_rank": 240,
+      "admin_points": -1.73,
+      "stat_rank": 235,
+      "stat_index": -0.325
+    },
+    {
+      "port": "Bluff",
+      "country": "New Zealand",
+      "admin_rank": 241,
+      "admin_points": -1.784,
+      "stat_rank": 234,
+      "stat_index": -0.308
+    },
+    {
+      "port": "Conakry",
+      "country": "Guinea",
+      "admin_rank": 242,
+      "admin_points": -1.833,
+      "stat_rank": 239,
+      "stat_index": -0.481
+    },
+    {
+      "port": "Kotka",
+      "country": "Finland",
+      "admin_rank": 243,
+      "admin_points": -2.04,
+      "stat_rank": 231,
+      "stat_index": -0.149
+    },
+    {
+      "port": "Vila do Conde",
+      "country": "Brazil",
+      "admin_rank": 244,
+      "admin_points": -2.095,
+      "stat_rank": 245,
+      "stat_index": -0.934
+    },
+    {
+      "port": "Batumi",
+      "country": "Georgia",
+      "admin_rank": 245,
+      "admin_points": -2.241,
+      "stat_rank": 233,
+      "stat_index": -0.183
+    },
+    {
+      "port": "Panjang",
+      "country": "Indonesia",
+      "admin_rank": 246,
+      "admin_points": -2.779,
+      "stat_rank": 246,
+      "stat_index": -1.093
+    },
+    {
+      "port": "QinZhou",
+      "country": "China",
+      "admin_rank": 247,
+      "admin_points": -3.362,
+      "stat_rank": 247,
+      "stat_index": -0.929
+    },
+    {
+      "port": "Samsun",
+      "country": "Turkey",
+      "admin_rank": 248,
+      "admin_points": -3.711,
+      "stat_rank": 253,
+      "stat_index": -2.272
+    },
+    {
+      "port": "Jubail",
+      "country": "Saudi Arabia",
+      "admin_rank": 249,
+      "admin_points": -3.792,
+      "stat_rank": 249,
+      "stat_index": -1.752
+    },
+    {
+      "port": "Belawan",
+      "country": "Indonesia",
+      "admin_rank": 250,
+      "admin_points": -3.89,
+      "stat_rank": 250,
+      "stat_index": -2.064
+    },
+    {
+      "port": "New York and New Jersey",
+      "country": "USA",
+      "admin_rank": 251,
+      "admin_points": -4.321,
+      "stat_rank": 251,
+      "stat_index": -2.159
+    },
+    {
+      "port": "Gavle",
+      "country": "Sweden",
+      "admin_rank": 252,
+      "admin_points": -4.762,
+      "stat_rank": 252,
+      "stat_index": -2.258
+    },
+    {
+      "port": "Izmir",
+      "country": "Turkey",
+      "admin_rank": 253,
+      "admin_points": -4.805,
+      "stat_rank": 246,
+      "stat_index": -1.093
+    },
+    {
+      "port": "Port of Spain",
+      "country": "Trinidad and Tobago",
+      "admin_rank": 254,
+      "admin_points": -5.624,
+      "stat_rank": 252,
+      "stat_index": -2.258
+    },
+    {
+      "port": "Gdynia",
+      "country": "Poland",
+      "admin_rank": 255,
+      "admin_points": -6.058,
+      "stat_rank": 255,
+      "stat_index": -2.789
+    },
+    {
+      "port": "St. Petersburg",
+      "country": "Russia",
+      "admin_rank": 256,
+      "admin_points": -6.294,
+      "stat_rank": 255,
+      "stat_index": -2.789
+    },
+    {
+      "port": "Teesport",
+      "country": "United Kingdom",
+      "admin_rank": 257,
+      "admin_points": -6.418,
+      "stat_rank": 257,
+      "stat_index": -3.425
+    },
+    {
+      "port": "Callao",
+      "country": "Peru",
+      "admin_rank": 258,
+      "admin_points": -6.638,
+      "stat_rank": 186,
+      "stat_index": 4.4
+    },
+    {
+      "port": "Mogadiscio",
+      "country": "Somalia",
+      "admin_rank": 259,
+      "admin_points": -7.613,
+      "stat_rank": 254,
+      "stat_index": -2.435
+    },
+    {
+      "port": "Caldera (Costa Rica)",
+      "country": "Costa Rica",
+      "admin_rank": 260,
+      "admin_points": -8.156,
+      "stat_rank": 264,
+      "stat_index": -4.755
+    },
+    {
+      "port": "Agadir",
+      "country": "Morocco",
+      "admin_rank": 261,
+      "admin_points": -8.711,
+      "stat_rank": 260,
+      "stat_index": -3.714
+    },
+    {
+      "port": "Casablanca",
+      "country": "Morocco",
+      "admin_rank": 262,
+      "admin_points": -9.239,
+      "stat_rank": 262,
+      "stat_index": -4.073
+    },
+    {
+      "port": "Manaus",
+      "country": "Brazil",
+      "admin_rank": 263,
+      "admin_points": -9.337,
+      "stat_rank": 263,
+      "stat_index": -4.392
+    },
+    {
+      "port": "Adelaide",
+      "country": "Australia",
+      "admin_rank": 264,
+      "admin_points": -9.863,
+      "stat_rank": 264,
+      "stat_index": -4.755
+    },
+    {
+      "port": "La Guaira",
+      "country": "Venezuela",
+      "admin_rank": 265,
+      "admin_points": -10.037,
+      "stat_rank": 265,
+      "stat_index": -4.983
+    },
+    {
+      "port": "Yantian",
+      "country": "China",
+      "admin_rank": 266,
+      "admin_points": -10.23,
+      "stat_rank": 270,
+      "stat_index": -5.466
+    },
+    {
+      "port": "Turbo",
+      "country": "Colombia",
+      "admin_rank": 267,
+      "admin_points": -11.329,
+      "stat_rank": 277,
+      "stat_index": -6.623
+    },
+    {
+      "port": "Freetown",
+      "country": "Sierra Leone",
+      "admin_rank": 268,
+      "admin_points": -11.843,
+      "stat_rank": 272,
+      "stat_index": -5.691
+    },
+    {
+      "port": "Hueneme",
+      "country": "USA",
+      "admin_rank": 269,
+      "admin_points": -12.006,
+      "stat_rank": 274,
+      "stat_index": -6.11
+    },
+    {
+      "port": "Beira",
+      "country": "Mozambique",
+      "admin_rank": 270,
+      "admin_points": -12.045,
+      "stat_rank": 268,
+      "stat_index": -5.257
+    },
+    {
+      "port": "Acajutla",
+      "country": "El Salvador",
+      "admin_rank": 271,
+      "admin_points": -12.182,
+      "stat_rank": 269,
+      "stat_index": -5.39
+    },
+    {
+      "port": "Constantza",
+      "country": "Romania",
+      "admin_rank": 272,
+      "admin_points": -12.712,
+      "stat_rank": 272,
+      "stat_index": -5.691
+    },
+    {
+      "port": "Santo Tomas De Castilla",
+      "country": "Guatemala",
+      "admin_rank": 273,
+      "admin_points": -13.292,
+      "stat_rank": 275,
+      "stat_index": -6.427
+    },
+    {
+      "port": "Davao",
+      "country": "Philippines",
+      "admin_rank": 274,
+      "admin_points": -13.669,
+      "stat_rank": 279,
+      "stat_index": -6.968
+    },
+    {
+      "port": "Fortaleza",
+      "country": "Brazil",
+      "admin_rank": 275,
+      "admin_points": -14.807,
+      "stat_rank": 278,
+      "stat_index": -6.668
+    },
+    {
+      "port": "Kaliningrad",
+      "country": "Russia",
+      "admin_rank": 276,
+      "admin_points": -14.877,
+      "stat_rank": 276,
+      "stat_index": -6.574
+    },
+    {
+      "port": "Alexandria (Egypt)",
+      "country": "Egypt",
+      "admin_rank": 277,
+      "admin_points": -15.305,
+      "stat_rank": 266,
+      "stat_index": -5.001
+    },
+    {
+      "port": "Zeebrugge",
+      "country": "Belgium",
+      "admin_rank": 278,
+      "admin_points": -15.389,
+      "stat_rank": 291,
+      "stat_index": -11.15
+    },
+    {
+      "port": "Toamasina",
+      "country": "Madagascar",
+      "admin_rank": 279,
+      "admin_points": -16.113,
+      "stat_rank": 280,
+      "stat_index": -7.109
+    },
+    {
+      "port": "Suape",
+      "country": "Brazil",
+      "admin_rank": 280,
+      "admin_points": -17.478,
+      "stat_rank": 287,
+      "stat_index": -9.607
+    },
+    {
+      "port": "Takoradi",
+      "country": "Ghana",
+      "admin_rank": 281,
+      "admin_points": -18.202,
+      "stat_rank": 290,
+      "stat_index": -11.023
+    },
+    {
+      "port": "Rotterdam",
+      "country": "Netherlands",
+      "admin_rank": 291,
+      "admin_points": -26.82,
+      "stat_rank": 300,
+      "stat_index": -13.017
+    },
+    {
+      "port": "Le Havre",
+      "country": "France",
+      "admin_rank": 292,
+      "admin_points": -26.886,
+      "stat_rank": 292,
+      "stat_index": -11.396
+    },
+    {
+      "port": "Mombasa",
+      "country": "Kenya",
+      "admin_rank": 293,
+      "admin_points": -27.174,
+      "stat_rank": 296,
+      "stat_index": -12.177
+    },
+    {
+      "port": "Mayotte",
+      "country": "Mayotte",
+      "admin_rank": 294,
+      "admin_points": -27.444,
+      "stat_rank": 293,
+      "stat_index": -11.873
+    },
+    {
+      "port": "Point Lisas Ports",
+      "country": "Trinidad and Tobago",
+      "admin_rank": 295,
+      "admin_points": -28.104,
+      "stat_rank": 301,
+      "stat_index": -13.433
+    },
+    {
+      "port": "Guayaquil",
+      "country": "Ecuador",
+      "admin_rank": 296,
+      "admin_points": -29.497,
+      "stat_rank": 302,
+      "stat_index": -13.513
+    },
+    {
+      "port": "Arica",
+      "country": "Chile",
+      "admin_rank": 297,
+      "admin_points": -30.042,
+      "stat_rank": 295,
+      "stat_index": -12.157
+    },
+    {
+      "port": "Otago Harbour",
+      "country": "New Zealand",
+      "admin_rank": 298,
+      "admin_points": -30.113,
+      "stat_rank": 292,
+      "stat_index": -11.396
+    },
+    {
+      "port": "Bangkok",
+      "country": "Thailand",
+      "admin_rank": 299,
+      "admin_points": -30.452,
+      "stat_rank": 304,
+      "stat_index": -14.923
+    },
+    {
+      "port": "Dublin",
+      "country": "Ireland",
+      "admin_rank": 300,
+      "admin_points": -30.607,
+      "stat_rank": 299,
+      "stat_index": -12.365
+    },
+    {
+      "port": "Seattle",
+      "country": "USA",
+      "admin_rank": 336,
+      "admin_points": -92.888,
+      "stat_rank": 336,
+      "stat_index": -40.078
+    },
+    {
+      "port": "Genoa",
+      "country": "Italy",
+      "admin_rank": 337,
+      "admin_points": -93.568,
+      "stat_rank": 337,
+      "stat_index": -40.159
+    },
+    {
+      "port": "Livorno",
+      "country": "Italy",
+      "admin_rank": 338,
+      "admin_points": -96.571,
+      "stat_rank": 338,
+      "stat_index": -40.42
+    },
+    {
+      "port": "Tin Can Island",
+      "country": "Nigeria",
+      "admin_rank": 339,
+      "admin_points": -98.354,
+      "stat_rank": 339,
+      "stat_index": -44.345
+    },
+    {
+      "port": "Douala",
+      "country": "Cameroon",
+      "admin_rank": 340,
+      "admin_points": -106.203,
+      "stat_rank": 340,
+      "stat_index": -44.552
+    },
+    {
+      "port": "Chattogram",
+      "country": "Bangladesh",
+      "admin_rank": 341,
+      "admin_points": -109.249,
+      "stat_rank": 347,
+      "stat_index": -54.949
+    },
+    {
+      "port": "Onne",
+      "country": "Nigeria",
+      "admin_rank": 342,
+      "admin_points": -111.104,
+      "stat_rank": 343,
+      "stat_index": -49.702
+    },
+    {
+      "port": "Bristol",
+      "country": "United Kingdom",
+      "admin_rank": 343,
+      "admin_points": -111.703,
+      "stat_rank": 344,
+      "stat_index": -52.914
+    },
+    {
+      "port": "Prince Rupert",
+      "country": "Canada",
+      "admin_rank": 344,
+      "admin_points": -114.287,
+      "stat_rank": 339,
+      "stat_index": -44.345
+    },
+    {
+      "port": "Tacoma",
+      "country": "USA",
+      "admin_rank": 345,
+      "admin_points": -119.152,
+      "stat_rank": 341,
+      "stat_index": -45.529
+    },
+    {
+      "port": "Southampton",
+      "country": "United Kingdom",
+      "admin_rank": 346,
+      "admin_points": -120.369,
+      "stat_rank": 348,
+      "stat_index": -55.49
+    },
+    {
+      "port": "London",
+      "country": "United Kingdom",
+      "admin_rank": 347,
+      "admin_points": -124.535,
+      "stat_rank": 355,
+      "stat_index": -73.209
+    },
+    {
+      "port": "Cotonou",
+      "country": "Benin",
+      "admin_rank": 348,
+      "admin_points": -130.819,
+      "stat_rank": 346,
+      "stat_index": -54.931
+    },
+    {
+      "port": "Lomé",
+      "country": "Togo",
+      "admin_rank": 349,
+      "admin_points": -133.17,
+      "stat_rank": 349,
+      "stat_index": -56.728
+    },
+    {
+      "port": "Dunkirk",
+      "country": "France",
+      "admin_rank": 350,
+      "admin_points": -142.6,
+      "stat_rank": 345,
+      "stat_index": -53.157
+    },
+    {
+      "port": "Auckland",
+      "country": "New Zealand",
+      "admin_rank": 351,
+      "admin_points": -142.913,
+      "stat_rank": 350,
+      "stat_index": -62.159
+    },
+    {
+      "port": "Freeport (Bahamas)",
+      "country": "Bahamas",
+      "admin_rank": 352,
+      "admin_points": -157.072,
+      "stat_rank": 351,
+      "stat_index": -64.071
+    },
+    {
+      "port": "Sokhna",
+      "country": "Egypt",
+      "admin_rank": 353,
+      "admin_points": -158.457,
+      "stat_rank": 352,
+      "stat_index": -66.771
+    },
+    {
+      "port": "Tema",
+      "country": "Ghana",
+      "admin_rank": 354,
+      "admin_points": -160.565,
+      "stat_rank": 353,
+      "stat_index": -67.093
+    },
+    {
+      "port": "Kribi Deep Sea Port",
+      "country": "Cameroon",
+      "admin_rank": 355,
+      "admin_points": -174.476,
+      "stat_rank": 357,
+      "stat_index": -74.427
+    },
+    {
+      "port": "Nouakchott",
+      "country": "Mauritania",
+      "admin_rank": 356,
+      "admin_points": -175.532,
+      "stat_rank": 354,
+      "stat_index": -70.175
+    },
+    {
+      "port": "Beirut",
+      "country": "Lebanon",
+      "admin_rank": 357,
+      "admin_points": -183.442,
+      "stat_rank": 356,
+      "stat_index": -73.234
+    },
+    {
+      "port": "Lagos (Nigeria)",
+      "country": "Nigeria",
+      "admin_rank": 358,
+      "admin_points": -188.317,
+      "stat_rank": 358,
+      "stat_index": -80.295
+    },
+    {
+      "port": "Oakland",
+      "country": "USA",
+      "admin_rank": 359,
+      "admin_points": -207.413,
+      "stat_rank": 360,
+      "stat_index": -95.795
+    },
+    {
+      "port": "Abidjan",
+      "country": "Ivory Coast",
+      "admin_rank": 360,
+      "admin_points": -216.138,
+      "stat_rank": 359,
+      "stat_index": -93.807
+    },
+    {
+      "port": "Dar Es Salaam",
+      "country": "Tanzania",
+      "admin_rank": 361,
+      "admin_points": -248.798,
+      "stat_rank": 361,
+      "stat_index": -105.753
+    },
+    {
+      "port": "Pointe-Noire",
+      "country": "Republic of the Congo",
+      "admin_rank": 362,
+      "admin_points": -320.281,
+      "stat_rank": 362,
+      "stat_index": -110.337
+    },
+    {
+      "port": "Ngqura",
+      "country": "South Africa",
+      "admin_rank": 363,
+      "admin_points": -359.179,
+      "stat_rank": 365,
+      "stat_index": -170.593
+    },
+    {
+      "port": "Durban",
+      "country": "South Africa",
+      "admin_rank": 364,
+      "admin_points": -386.098,
+      "stat_rank": 363,
+      "stat_index": -155.82
+    },
+    {
+      "port": "Cape Town",
+      "country": "South Africa",
+      "admin_rank": 365,
+      "admin_points": -410.746,
+      "stat_rank": 364,
+      "stat_index": -159.253
+    },
+    {
+      "port": "Luanda",
+      "country": "Angola",
+      "admin_rank": 366,
+      "admin_points": -442.446,
+      "stat_rank": 366,
+      "stat_index": -174.675
+    },
+    {
+      "port": "Savannah",
+      "country": "USA",
+      "admin_rank": 367,
+      "admin_points": -464.721,
+      "stat_rank": 367,
+      "stat_index": -217.103
+    },
+    {
+      "port": "Vancouver (Canada)",
+      "country": "Canada",
+      "admin_rank": 368,
+      "admin_points": -573.524,
+      "stat_rank": 368,
+      "stat_index": -245.879
+    },
+    {
+      "port": "Long Beach",
+      "country": "USA",
+      "admin_rank": 369,
+      "admin_points": -952.47,
+      "stat_rank": 370,
+      "stat_index": -348.928
+    },
+    {
+      "port": "Los Angeles",
+      "country": "USA",
+      "admin_rank": 370,
+      "admin_points": -954.086,
+      "stat_rank": 369,
+      "stat_index": -281.841
+    }
+  ]
+}

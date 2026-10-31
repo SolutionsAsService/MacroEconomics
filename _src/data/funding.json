@@ -1,0 +1,234 @@
+{
+  "mechanisms": {
+    "VentureCapital": {
+      "Description": "Funding provided by investors to startups and small businesses with long-term growth potential.",
+      "Objectives": [
+        "Accelerate growth.",
+        "Bring innovations to market."
+      ],
+      "Examples": [
+        "Series A, B, C funding rounds.",
+        "Angel investing."
+      ]
+    },
+    "Crowdfunding": {
+      "Description": "Raising small amounts of money from a large number of people, typically via the Internet.",
+      "Objectives": [
+        "Validate product-market fit.",
+        "Engage with the community."
+      ],
+      "Examples": [
+        "Kickstarter campaigns.",
+        "GoFundMe for personal or social causes."
+      ]
+    },
+    "Grants": {
+      "Description": "Non-repayable funds or products disbursed by one party, often a government department, corporation, foundation, or trust.",
+      "Objectives": [
+        "Support specific projects or research.",
+        "Promote initiatives benefiting the public."
+      ],
+      "Examples": [
+        "Research grants from governmental agencies like the NSF or NIH.",
+        "Community development grants from foundations."
+      ]
+    },
+    "DebtFinancing": {
+      "Description": "Raising funds through borrowing that must be repaid over time, with interest.",
+      "Objectives": [
+        "Fund operations or expansion without diluting ownership."
+      ],
+      "Examples": [
+        "Bank loans.",
+        "Bonds."
+      ]
+    },
+    "Bootstrapping": {
+      "Description": "Starting and growing a business using personal finance or the operating revenues of the new company.",
+      "Objectives": [
+        "Maintain full control and ownership.",
+        "Minimize debt."
+      ],
+      "Examples": [
+        "Self-funding.",
+        "Reinvesting initial sales back into the business."
+      ]
+    },
+    "EquityCrowdfunding": {
+      "Description": "A form of crowdfunding that gives investors a stake in the company in exchange for capital.",
+      "Objectives": [
+        "Raise capital without traditional venture capital."
+      ],
+      "Examples": [
+        "Platforms like SeedInvest or WeFunder."
+      ]
+    },
+    "Sponsorships": {
+      "Description": "Financial support received from an individual or organization in exchange for advertising rights or brand promotion.",
+      "Objectives": [
+        "Fund events, projects, or operations.",
+        "Increase brand visibility."
+      ],
+      "Examples": [
+        "Corporate sponsorships for events.",
+        "Athlete endorsements."
+      ]
+    },
+    "GovernmentSubsidies": {
+      "Description": "Financial assistance provided by the government to support businesses, industries, or projects that are in the public interest.",
+      "Objectives": [
+        "Stimulate economic activity.",
+        "Promote social good or innovation."
+      ],
+      "Examples": [
+        "Agricultural subsidies.",
+        "Renewable energy incentives."
+      ]
+    },
+    "DonationBasedFunding": {
+      "Description": "Receiving funds without the expectation of direct financial return, often for non-profits or charitable causes.",
+      "Objectives": [
+        "Support operations and mission-driven activities."
+      ],
+      "Examples": [
+        "Online donation platforms like Donorbox.",
+        "Charitable giving and endowments."
+      ]
+    }
+  },
+  "quadratic_funding": {
+    "Description": "A crowdfunding model that optimizes for the public good by matching funds according to the square of the sum of the square roots of contributions received. It prioritizes the number of individual contributions over the total amount raised, emphasizing the importance of community support and participation.",
+    "Mechanics": [
+      "Participants contribute to projects they support.",
+      "A separate matching pool is set aside by sponsors.",
+      "The final amount given to a project is the sum of direct contributions and a matching amount. The matching amount is calculated based on the square of the sum of the square roots of all individual contributions.",
+      "This formula ensures that projects which receive a larger number of small contributions receive a disproportionately larger portion of the matching pool, compared to those receiving the same amount of money but from fewer, larger contributions."
+    ],
+    "Benefits": [
+      "Promotes democratic engagement by valuing the number of contributors more than the size of contributions.",
+      "Encourages wide participation in the funding process, making it more inclusive.",
+      "Optimizes for community preference, directing more funds to projects that have broader support.",
+      "Reduces the influence of large donors, making funding outcomes more equitable."
+    ],
+    "Challenges": [
+      "Complexity of the concept can be a barrier to understanding and participation.",
+      "Requires a significant matching pool to be effective, which depends on the generosity of sponsors.",
+      "Potential for gaming the system by splitting large donations into smaller ones to maximize matching funds.",
+      "Implementation and administration can be resource-intensive."
+    ],
+    "RealWorldExamples": [
+      "Gitcoin Grants: Uses quadratic funding to support open source software development.",
+      "CLR Fund: A decentralized protocol for funding public goods in the Ethereum ecosystem."
+    ],
+    "KeyComponents": {
+      "ContributionFormula": "A project's match is proportional to (the sum of the square roots of its contributions) squared, minus the sum of its contributions; every project's match is then scaled by the same factor so that all matches add up to the matching pool. The project receives its direct contributions plus its match.",
+      "ImportanceOfCommunitySupport": "The mechanism's effectiveness hinges on broad community participation and the availability of a substantial matching fund.",
+      "DemocraticFunding": "Quadratic funding democratizes the funding process by giving more weight to the number of supporters than to the amount of money raised."
+    }
+  },
+  "allocation_strategies": {
+    "DollarCostAveraging": {
+      "Description": "Investing a fixed amount of money at regular intervals, regardless of the asset's price.",
+      "Objectives": [
+        "Mitigate the impact of volatility.",
+        "Reduce the risk of investing a large amount at an unfavorable time."
+      ],
+      "Risks": [
+        "Missed opportunities during rapidly rising markets."
+      ],
+      "Benefits": [
+        "Smoother entry into the market.",
+        "Lower average purchase price over time."
+      ]
+    },
+    "ValueAveraging": {
+      "Description": "Adjusting the amount invested to maintain a target growth path for the portfolio.",
+      "Objectives": [
+        "More aggressive than dollar-cost averaging in targeting portfolio growth."
+      ],
+      "Risks": [
+        "Requires more capital to adjust the investment during downturns."
+      ],
+      "Benefits": [
+        "Potentially higher returns by enforcing discipline in adding more during dips."
+      ]
+    },
+    "BuyAndHold": {
+      "Description": "Purchasing cryptocurrency and holding it long-term, regardless of market fluctuations.",
+      "Objectives": [
+        "Benefit from long-term growth of the crypto market."
+      ],
+      "Risks": [
+        "Exposure to prolonged bear markets.",
+        "Missing short-term profits from market fluctuations."
+      ],
+      "Benefits": [
+        "Lower transaction costs.",
+        "Compounded growth over the long term."
+      ]
+    },
+    "BalancedPortfolio": {
+      "Description": "Diversifying investments across a range of cryptocurrencies to spread risk.",
+      "Objectives": [
+        "Reduce risk by not overexposing to any single asset."
+      ],
+      "Risks": [
+        "Diluted gains from high performers by balancing with lower performers."
+      ],
+      "Benefits": [
+        "Mitigates the impact of volatility on the portfolio.",
+        "Steadier returns over time."
+      ]
+    },
+    "GrowthFocused": {
+      "Description": "Allocating a larger portion of the portfolio to high-risk, high-reward cryptocurrencies.",
+      "Objectives": [
+        "Achieve higher returns by accepting higher risk."
+      ],
+      "Risks": [
+        "Greater exposure to volatility and potential for significant losses."
+      ],
+      "Benefits": [
+        "Potential for substantial gains."
+      ]
+    },
+    "IncomeGenerating": {
+      "Description": "Focusing on cryptocurrencies that offer dividends or interest through staking or other means.",
+      "Objectives": [
+        "Generate regular income from the crypto holdings."
+      ],
+      "Risks": [
+        "Dependency on the specific mechanisms and reliability of dividend or interest payments."
+      ],
+      "Benefits": [
+        "Provides a steady income stream in addition to potential capital gains."
+      ]
+    },
+    "SectorRotation": {
+      "Description": "Rotating investments among different crypto sectors (DeFi, NFTs, Layer 1 protocols) based on market cycle phases.",
+      "Objectives": [
+        "Capitalize on the growth potential of specific sectors at different times."
+      ],
+      "Risks": [
+        "Timing the market incorrectly and missing out on gains."
+      ],
+      "Benefits": [
+        "Opportunity to maximize returns by being in the right sector at the right time."
+      ]
+    },
+    "Hedging": {
+      "Description": "Using derivatives or other cryptocurrencies to offset potential losses in the portfolio.",
+      "Objectives": [
+        "Protect the portfolio against significant losses."
+      ],
+      "Risks": [
+        "Cost of hedging can reduce overall profits.",
+        "Complexity and risk of derivatives if used as a hedge."
+      ],
+      "Benefits": [
+        "Reduced portfolio volatility.",
+        "Protection against downside risk."
+      ]
+    }
+  }
+}

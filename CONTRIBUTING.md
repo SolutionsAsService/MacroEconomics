@@ -18,7 +18,7 @@ git clone https://github.com/SolutionsAsService/MacroEconomics
 cd MacroEconomics
 ```
 
-See the README for how to run or use what is here.
+See the README for what is here and how to rebuild it: `python _src/clean.py`, then `python _src/build.py`.
 
 ## Making a change
 

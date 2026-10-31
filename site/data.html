@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About the Data: Sources, Gaps and Repairs · MacroEconomics</title>
+<meta name="description" content="Where every dataset on MacroEconomics comes from, what it covers, what is missing, and each repair made to the inherited files, with JSON downloads.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://macroeconomics.shadw.app/data">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MacroEconomics">
+<meta property="og:title" content="About the Data: Sources, Gaps and Repairs · MacroEconomics">
+<meta property="og:description" content="Where every dataset on MacroEconomics comes from, what it covers, what is missing, and each repair made to the inherited files, with JSON downloads.">
+<meta property="og:url" content="https://macroeconomics.shadw.app/data">
+<meta property="og:image" content="https://macroeconomics.shadw.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Proved oil reserves of the ten largest holders as heavy bars, with OPEC's and BP's figures marked as ticks; Canada's OPEC figure sits near zero.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://macroeconomics.shadw.app/#site", "url": "https://macroeconomics.shadw.app/", "name": "MacroEconomics", "description": "Oil, prices, ports and money: the data, with its seams showing", "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://macroeconomics.shadw.app/data#page", "url": "https://macroeconomics.shadw.app/data", "name": "About the Data: Sources, Gaps and Repairs · MacroEconomics", "description": "Where every dataset on MacroEconomics comes from, what it covers, what is missing, and each repair made to the inherited files, with JSON downloads.", "isPartOf": {"@id": "https://macroeconomics.shadw.app/#site"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://macroeconomics.shadw.app/"}, {"@type": "ListItem", "position": 2, "name": "About the data", "item": "https://macroeconomics.shadw.app/data"}]}, {"@type": "Dataset", "name": "MacroEconomics: Oil", "description": "US EIA, OPEC and BP proved reserves for 41 countries (million barrels); production for 10 countries, September 2023 (barrels per day).", "license": "https://opensource.org/licenses/MIT", "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://macroeconomics.shadw.app/data/oil.json"}}, {"@type": "Dataset", "name": "MacroEconomics: Inflation", "description": "World Bank consumer price inflation, annual %, 18 rows (Aruba to Bangladesh), 1960 to 2022.", "license": "https://opensource.org/licenses/MIT", "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://macroeconomics.shadw.app/data/inflation.json"}}, {"@type": "Dataset", "name": "MacroEconomics: Ports", "description": "Container Port Performance Index 2021, 287 ports, two ranks each.", "license": "https://opensource.org/licenses/MIT", "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://macroeconomics.shadw.app/data/ports.json"}}, {"@type": "Dataset", "name": "MacroEconomics: CFA franc", "description": "History, institutions, members, rate history and reform of the CFA franc.", "license": "https://opensource.org/licenses/MIT", "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://macroeconomics.shadw.app/data/cfa_franc.json"}}, {"@type": "Dataset", "name": "MacroEconomics: Funding and crypto strategies", "description": "Nine funding mechanisms, quadratic funding, and eight crypto allocation strategies, as written in the inherited files.", "license": "https://opensource.org/licenses/MIT", "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://macroeconomics.shadw.app/data/funding.json"}}]}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html"><span class="brand-name">MacroEconomics</span><span class="brand-tag">Oil, prices, ports and money: the data, with its seams showing</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="oil.html">Oil</a></li>
+        <li><a href="inflation.html">Inflation</a></li>
+        <li><a href="ports.html">Ports</a></li>
+        <li><a href="cfa-franc.html">CFA franc</a></li>
+        <li><a href="funding.html">Funding public goods</a></li>
+        <li><a href="crypto-strategies.html">Crypto strategies</a></li>
+        <li><a href="data.html" aria-current="page">About the data</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<header class="page-head wrap">
+  <p class="kicker">About the data</p>
+  <h1>Where every number comes from, and what was fixed</h1>
+  <p class="plain"><strong>In plain words:</strong> this site began as a folder of data files, three of which could not be opened by a program. They were repaired, not replaced: the originals are kept unchanged, and every repair is listed below.</p>
+</header>
+<section class="section wrap prose">
+<section aria-labelledby="oil"><h2 id="oil">Oil</h2><p>US EIA, OPEC and BP proved reserves for 41 countries (million barrels); production for 10 countries, September 2023 (barrels per day).</p>
+      <p><a href="data/oil.json">Download oil.json</a></p>
+      <h3>Repairs</h3><ul><li>Mexico&#x27;s entry is cut off mid-line in the inherited file; only its US EIA figure (5,800 million barrels) survives</li><li>fields labelled &#x27;(bbl)&#x27; in the second half of the &#x27;Countries&#x27; block hold the same values as &#x27;million barrels&#x27; (Nigeria 37,000 = 37 billion barrels) and are read as millions of barrels</li><li>the &#x27;OilData&#x27; block&#x27;s &#x27;Other_Reserves&#x27; (e.g. Oman 980000) and &#x27;Production_2021&#x27; (e.g. Oman 15) have no stated unit and do not match any of the other figures; both are dropped</li><li>&#x27;Years of Production in Reserve&#x27; is not copied; it is recomputed from US EIA reserves and 2021 production where both exist</li><li>OPEC membership added (twelve members as of 2024; Angola left in January 2024): the inherited reserves file marked only Gabon and Congo, and the production file flags members only for its ten countries</li></ul></section><section aria-labelledby="inflation"><h2 id="inflation">Inflation</h2><p>World Bank consumer price inflation, annual %, 18 rows (Aruba to Bangladesh), 1960 to 2022.</p>
+      <p><a href="data/inflation.json">Download inflation.json</a></p>
+      <h3>Repairs</h3><ul><li>removed 2 comment line(s) of the form &#x27;// ... continue with null for years without data ...&#x27; and added 1 missing comma(s) between rows</li><li>18 rows: the World Bank file&#x27;s rows from Aruba to Bangladesh only; the rest of the alphabet is not in the inherited file</li><li>HistoricInflationDataSchema.json is empty in the inherited repo; nothing to carry over</li></ul></section><section aria-labelledby="ports"><h2 id="ports">Ports</h2><p>Container Port Performance Index 2021, 287 ports, two ranks each.</p>
+      <p><a href="data/ports.json">Download ports.json</a></p>
+      <h3>Repairs</h3><ul><li>removed 13 exact duplicate rows; 287 ports remain, of an index that ranks 370: the inherited file is partial</li><li>12 ports have no statistical-approach rank in the inherited file; they are shown with the administrative rank only</li></ul></section><section aria-labelledby="cfa-franc"><h2 id="cfa-franc">CFA franc</h2><p>History, institutions, members, rate history and reform of the CFA franc.</p>
+      <p><a href="data/cfa_franc.json">Download cfa_franc.json</a></p>
+      <h3>Repairs</h3><ul><li>moved &#x27;Facilitates exports and imports between France and member countries&#x27; from Criticism to a new ClaimedBenefits list: it states an advantage, not a criticism</li></ul></section><section aria-labelledby="funding"><h2 id="funding">Funding and crypto strategies</h2><p>Nine funding mechanisms, quadratic funding, and eight crypto allocation strategies, as written in the inherited files.</p>
+      <p><a href="data/funding.json">Download funding.json</a></p>
+      <h3>Repairs</h3><ul><li>QuadraticFunding.yaml stated the formula as &#x27;The final amount received by a project = Direct contributions + (Square of the sum of the square roots of individual contributions) * Matching pool&#x27;, which multiplies by the whole matching pool; replaced with the standard rule (Buterin, Hitzig and Weyl, &#x27;A Flexible Design for Funding Public Goods&#x27;, 2019)</li></ul></section><section aria-labelledby="price-prediction"><h2 id="price-prediction">Price prediction</h2><p>A script, not data.</p>
+      
+      <h3>Repairs</h3><ul><li>PricePrediction.py fits a straight line through prices from historical_prices.csv, a file not in the repo; it is kept in _src/raw/ and not published as a forecast</li></ul></section>
+  <section aria-labelledby="raw-h"><h2 id="raw-h">The originals</h2>
+  <p>The inherited files are kept unchanged in <code>_src/raw/</code> in the <a href="https://github.com/SolutionsAsService/MacroEconomics">source repository</a>, and the repository as it stood before this redesign is on the branch <code>legacy-2026-10-30</code>. The repairs are made by <code>_src/clean.py</code>; anyone can rerun them.</p></section>
+  <section aria-labelledby="fix-h"><h2 id="fix-h">Found a mistake?</h2>
+  <p>Open an issue on the repository with the figure, the page and, ideally, a source.</p></section>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="foot-name">MacroEconomics</p>
+    <p>Oil, prices, ports and money: the data, with its seams showing. Open data and code under the MIT license; every repair to the inherited data is listed on <a href="data.html">About the data</a>.</p>
+    <nav aria-label="Footer"><ul class="foot-nav"><li><a href="index.html">Home</a></li><li><a href="oil.html">Oil</a></li><li><a href="inflation.html">Inflation</a></li><li><a href="ports.html">Ports</a></li><li><a href="cfa-franc.html">CFA franc</a></li><li><a href="funding.html">Funding public goods</a></li><li><a href="crypto-strategies.html">Crypto strategies</a></li><li><a href="data.html">About the data</a></li></ul></nav>
+  </div>
+</footer>
+<script src="js/site.js" defer></script>
+
+</body>
+</html>

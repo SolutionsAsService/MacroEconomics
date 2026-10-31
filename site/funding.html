@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quadratic Funding Calculator: How Matching Pools Favor Many Small Gifts · MacroEconomics</title>
+<meta name="description" content="Try quadratic funding: change the contributions to three projects and see how a matching pool is split. The rule explained, the inherited formula corrected, and nine other ways projects get funded.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://macroeconomics.shadw.app/funding">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MacroEconomics">
+<meta property="og:title" content="Quadratic Funding Calculator: How Matching Pools Favor Many Small Gifts · MacroEconomics">
+<meta property="og:description" content="Try quadratic funding: change the contributions to three projects and see how a matching pool is split. The rule explained, the inherited formula corrected, and nine other ways projects get funded.">
+<meta property="og:url" content="https://macroeconomics.shadw.app/funding">
+<meta property="og:image" content="https://macroeconomics.shadw.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Proved oil reserves of the ten largest holders as heavy bars, with OPEC's and BP's figures marked as ticks; Canada's OPEC figure sits near zero.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://macroeconomics.shadw.app/#site", "url": "https://macroeconomics.shadw.app/", "name": "MacroEconomics", "description": "Oil, prices, ports and money: the data, with its seams showing", "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://macroeconomics.shadw.app/funding#page", "url": "https://macroeconomics.shadw.app/funding", "name": "Quadratic Funding Calculator: How Matching Pools Favor Many Small Gifts · MacroEconomics", "description": "Try quadratic funding: change the contributions to three projects and see how a matching pool is split. The rule explained, the inherited formula corrected, and nine other ways projects get funded.", "isPartOf": {"@id": "https://macroeconomics.shadw.app/#site"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://macroeconomics.shadw.app/"}, {"@type": "ListItem", "position": 2, "name": "Funding public goods", "item": "https://macroeconomics.shadw.app/funding"}]}]}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html"><span class="brand-name">MacroEconomics</span><span class="brand-tag">Oil, prices, ports and money: the data, with its seams showing</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="oil.html">Oil</a></li>
+        <li><a href="inflation.html">Inflation</a></li>
+        <li><a href="ports.html">Ports</a></li>
+        <li><a href="cfa-franc.html">CFA franc</a></li>
+        <li><a href="funding.html" aria-current="page">Funding public goods</a></li>
+        <li><a href="crypto-strategies.html">Crypto strategies</a></li>
+        <li><a href="data.html">About the data</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<header class="page-head wrap">
+  <p class="kicker">Funding public goods</p>
+  <h1>Many small gifts beat one large one: try it.</h1>
+  <p class="plain"><strong>In plain words:</strong> quadratic funding is a way to share out a pot of matching money. Each project gets more of the pot the more <em>people</em> back it, not the more money they give. Change the numbers below and watch the pot move.</p>
+</header>
+<section class="section wrap">
+  <form class="qf" id="qf" novalidate>
+    <fieldset>
+      <legend>Three projects and a matching pool</legend>
+      <p class="hint" id="qf-help">Each number is one person's contribution. Example: "10, 10, 10" is three people giving $10 each.</p>
+      <div class="field"><label for="qf-0">Project A: contributions in dollars, separated by commas</label>
+      <input id="qf-0" name="Project A" inputmode="decimal" value="100" aria-describedby="qf-help"></div><div class="field"><label for="qf-1">Project B: contributions in dollars, separated by commas</label>
+      <input id="qf-1" name="Project B" inputmode="decimal" value="10, 10, 10, 10, 10, 10, 10, 10, 10, 10" aria-describedby="qf-help"></div><div class="field"><label for="qf-2">Project C: contributions in dollars, separated by commas</label>
+      <input id="qf-2" name="Project C" inputmode="decimal" value="25, 25, 25, 25" aria-describedby="qf-help"></div>
+      <div class="field"><label for="qf-pool">Matching pool in dollars</label><input id="qf-pool" name="pool" inputmode="decimal" value="1000"></div>
+    </fieldset>
+    <p class="err" id="qf-err" role="alert" hidden></p>
+  </form>
+  <div class="qf-out" id="qf-out" aria-live="polite">
+    <h2>What each project receives</h2>
+    <div class="table-wrap" role="region" aria-label="Quadratic funding result" tabindex="0"><table><thead><tr><th scope="col">Project</th><th scope="col">Contributions</th><th scope="col" class=num>Total given</th><th scope="col" class=num>Before scaling: (Σ√c)² − Σc</th><th scope="col" class=num>Match</th><th scope="col" class=num>Receives</th></tr></thead><tbody><tr><th scope="row">Project A</th><td>1 × $100</td><td class=num>$100</td><td class=num>$0</td><td class=num>$0</td><td class=num>$100</td></tr><tr><th scope="row">Project B</th><td>10 × $10</td><td class=num>$100</td><td class=num>$900</td><td class=num>$750</td><td class=num>$850</td></tr><tr><th scope="row">Project C</th><td>4 × $25</td><td class=num>$100</td><td class=num>$300</td><td class=num>$250</td><td class=num>$350</td></tr></tbody></table></div>
+  </div>
+  <p class="take">With the starting numbers, Project A's one $100 gift earns no match at all, while Project B's ten $10 gifts, the same $100 in total, take $750 of the $1,000 pool.</p>
+  <section aria-labelledby="rule-h">
+    <h2 id="rule-h">The rule</h2>
+    <p>For each project, add up the square roots of its contributions, square that, and subtract what was given: (Σ√c)² − Σc. Then scale every project's result by the same factor so that all the matches add up to the pool. A project receives its contributions plus its match. With one contributor the result is zero; with many small ones it grows fast.</p>
+    <p class="was">The inherited data stated it as <del>"Direct contributions + (Square of the sum of the square roots of individual contributions) * Matching pool"</del>, which multiplies by the whole pool and would pay out many times the pot.</p>
+    <p class="source">The rule as set out by Vitalik Buterin, Zoë Hitzig and E. Glen Weyl, "A Flexible Design for Funding Public Goods" (2019). Used by Gitcoin Grants and clr.fund.</p>
+  </section>
+  <section aria-labelledby="qf-two">
+    <h2 id="qf-two">What it is good at, and where it breaks</h2>
+    <div class="two"><div><h3>For</h3><ul><li>Promotes democratic engagement by valuing the number of contributors more than the size of contributions.</li><li>Encourages wide participation in the funding process, making it more inclusive.</li><li>Optimizes for community preference, directing more funds to projects that have broader support.</li><li>Reduces the influence of large donors, making funding outcomes more equitable.</li></ul></div>
+    <div><h3>Against</h3><ul><li>Complexity of the concept can be a barrier to understanding and participation.</li><li>Requires a significant matching pool to be effective, which depends on the generosity of sponsors.</li><li>Potential for gaming the system by splitting large donations into smaller ones to maximize matching funds.</li><li>Implementation and administration can be resource-intensive.</li></ul></div></div>
+  </section>
+  <section aria-labelledby="mech-h">
+    <h2 id="mech-h">Other ways projects get funded</h2>
+    <div class="mechs"><section class="mech" aria-labelledby="m-VentureCapital"><h3 id="m-VentureCapital">Venture Capital</h3><p>Funding provided by investors to startups and small businesses with long-term growth potential.</p>
+      <p class="mini"><strong>For:</strong> Accelerate growth.; Bring innovations to market.</p><p class="mini"><strong>Examples:</strong> Series A, B, C funding rounds.; Angel investing.</p></section><section class="mech" aria-labelledby="m-Crowdfunding"><h3 id="m-Crowdfunding">Crowdfunding</h3><p>Raising small amounts of money from a large number of people, typically via the Internet.</p>
+      <p class="mini"><strong>For:</strong> Validate product-market fit.; Engage with the community.</p><p class="mini"><strong>Examples:</strong> Kickstarter campaigns.; GoFundMe for personal or social causes.</p></section><section class="mech" aria-labelledby="m-Grants"><h3 id="m-Grants">Grants</h3><p>Non-repayable funds or products disbursed by one party, often a government department, corporation, foundation, or trust.</p>
+      <p class="mini"><strong>For:</strong> Support specific projects or research.; Promote initiatives benefiting the public.</p><p class="mini"><strong>Examples:</strong> Research grants from governmental agencies like the NSF or NIH.; Community development grants from foundations.</p></section><section class="mech" aria-labelledby="m-DebtFinancing"><h3 id="m-DebtFinancing">Debt Financing</h3><p>Raising funds through borrowing that must be repaid over time, with interest.</p>
+      <p class="mini"><strong>For:</strong> Fund operations or expansion without diluting ownership.</p><p class="mini"><strong>Examples:</strong> Bank loans.; Bonds.</p></section><section class="mech" aria-labelledby="m-Bootstrapping"><h3 id="m-Bootstrapping">Bootstrapping</h3><p>Starting and growing a business using personal finance or the operating revenues of the new company.</p>
+      <p class="mini"><strong>For:</strong> Maintain full control and ownership.; Minimize debt.</p><p class="mini"><strong>Examples:</strong> Self-funding.; Reinvesting initial sales back into the business.</p></section><section class="mech" aria-labelledby="m-EquityCrowdfunding"><h3 id="m-EquityCrowdfunding">Equity Crowdfunding</h3><p>A form of crowdfunding that gives investors a stake in the company in exchange for capital.</p>
+      <p class="mini"><strong>For:</strong> Raise capital without traditional venture capital.</p><p class="mini"><strong>Examples:</strong> Platforms like SeedInvest or WeFunder.</p></section><section class="mech" aria-labelledby="m-Sponsorships"><h3 id="m-Sponsorships">Sponsorships</h3><p>Financial support received from an individual or organization in exchange for advertising rights or brand promotion.</p>
+      <p class="mini"><strong>For:</strong> Fund events, projects, or operations.; Increase brand visibility.</p><p class="mini"><strong>Examples:</strong> Corporate sponsorships for events.; Athlete endorsements.</p></section><section class="mech" aria-labelledby="m-GovernmentSubsidies"><h3 id="m-GovernmentSubsidies">Government Subsidies</h3><p>Financial assistance provided by the government to support businesses, industries, or projects that are in the public interest.</p>
+      <p class="mini"><strong>For:</strong> Stimulate economic activity.; Promote social good or innovation.</p><p class="mini"><strong>Examples:</strong> Agricultural subsidies.; Renewable energy incentives.</p></section><section class="mech" aria-labelledby="m-DonationBasedFunding"><h3 id="m-DonationBasedFunding">Donation Based Funding</h3><p>Receiving funds without the expectation of direct financial return, often for non-profits or charitable causes.</p>
+      <p class="mini"><strong>For:</strong> Support operations and mission-driven activities.</p><p class="mini"><strong>Examples:</strong> Online donation platforms like Donorbox.; Charitable giving and endowments.</p></section></div>
+  </section>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="foot-name">MacroEconomics</p>
+    <p>Oil, prices, ports and money: the data, with its seams showing. Open data and code under the MIT license; every repair to the inherited data is listed on <a href="data.html">About the data</a>.</p>
+    <nav aria-label="Footer"><ul class="foot-nav"><li><a href="index.html">Home</a></li><li><a href="oil.html">Oil</a></li><li><a href="inflation.html">Inflation</a></li><li><a href="ports.html">Ports</a></li><li><a href="cfa-franc.html">CFA franc</a></li><li><a href="funding.html">Funding public goods</a></li><li><a href="crypto-strategies.html">Crypto strategies</a></li><li><a href="data.html">About the data</a></li></ul></nav>
+  </div>
+</footer>
+<script src="js/site.js" defer></script>
+<script src="js/qf.js" defer></script>
+</body>
+</html>
