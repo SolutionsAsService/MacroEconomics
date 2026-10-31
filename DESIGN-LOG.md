@@ -354,3 +354,9 @@ Fence: the First screen rule; the six tiles must be complete above the fold at b
 Mode field: Advanced pole: a constructivist poster of the whole site. Acceptable pole: six topics, six numbers, six links.
 
 **M14 measured** (in-app browser, after the last edit): poster complete in the first viewport at 1280 x 800 (top 220, bottom 701 of 800) and at 375 x 812 (top 180, bottom 724 of 812; tiles 166 px wide, none overflowing); horizontal overflow 0 at both. The social card now shows the six figures. `_src/check_figures.py` extended to the six poster figures: 42 checks, 0 mismatches. Screenshot: `panel/landing-M14-1280.jpg`. Not re-panelled; the person's grade is the verdict this move answers.
+
+## Human grade (after M14)
+- **Grade:** A
+- **Date:** 2026-10-31
+- **The person's words, verbatim:** "okay now its great A desain of rhtat landing"
+- **What the grade most likely rewards:** M14, the six-tile poster: one composed graphic summarizing every topic, each tile a computed figure, a claim, a data glyph and a link, complete on the first screen at both sizes. Recorded as dada-lessons lesson 42; the DADA skill gained a Landing run type built on it.
