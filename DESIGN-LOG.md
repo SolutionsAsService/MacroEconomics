@@ -334,3 +334,23 @@ The criterion held, and the carried-in First screen rule did its job: it caught 
 - [x] Anchor Ledger complete; graph classes recorded as text (no renderer)
 - [x] Double-loop paragraph written
 - [ ] Final reply states mode, tools, stop conditions and everything skipped (in the reply)
+
+
+## Human grade
+- **Grade:** B
+- **Date:** 2026-10-31
+- **The person's words, verbatim:** "okay very good its a B for dada - only bad thing is not central graphic bold ladning page summarizng everything"
+- **What the grade most likely rewards or punishes:** it rewards the run (the First screen rule held, the oil wedge was bold and complete) and punishes the choice of hero: the landing summarized one of six topics. M3 chose the strongest single dataset; no seat asked whether the first screen said what the whole site holds. Recorded as dada-lessons lesson 41 and in the DADA skill ("The landing graphic summarizes the whole site").
+
+## Move M14: A landing graphic for the whole site  (BREAK, after the grade)
+> Made on the person's grade, after the run closed; recorded before the edit. No new panel round (the person's verdict stands in for it).
+Depends on: M3, M12
+Anchors: Stance Make It Bigger (Paula Scher) | Breaker Of Two Squares (El Lissitzky) | Rule Grid Systems in Graphic Design (Josef Müller-Brockmann)
+Intent: the landing leads with one composed poster of six tiles on a heavy black grid, one per topic, each a link to its page with the topic, one figure set huge, a one-line claim and a small glyph drawn from the data: Oil 38× (two bars, long and tiny), Inflation 5.8 (a decay curve from 100), Ports 55 of 275 (dumbbells), CFA franc 655.957 (the peg), Funding $750 vs $0 (ten dots against one), Crypto strategies 8 (a split bar: the case for it, how it loses). Every figure computed at build. Three columns by two rows on desktop, two by three on a phone, complete in the first viewport at 1280 x 800 and 375 x 812. The oil wedge moves below it as "Start with oil".
+Formal argument: the first screen must say what the whole site holds (the person's grade); one composed figure keeps a single bold object rather than six cards; Lissitzky's heavy rules make the six one poster.
+Alternatives rejected: (a) six plain cards: the "card grid" the B grade already implies is not a graphic; (b) a single combined chart: the six topics share no axis, so any shared chart would be a fake one.
+Consequence: the oil chart is no longer first; the landing's figures grow from 5 to about 12.
+Fence: the First screen rule; the six tiles must be complete above the fold at both sizes.
+Mode field: Advanced pole: a constructivist poster of the whole site. Acceptable pole: six topics, six numbers, six links.
+
+**M14 measured** (in-app browser, after the last edit): poster complete in the first viewport at 1280 x 800 (top 220, bottom 701 of 800) and at 375 x 812 (top 180, bottom 724 of 812; tiles 166 px wide, none overflowing); horizontal overflow 0 at both. The social card now shows the six figures. `_src/check_figures.py` extended to the six poster figures: 42 checks, 0 mismatches. Screenshot: `panel/landing-M14-1280.jpg`. Not re-panelled; the person's grade is the verdict this move answers.

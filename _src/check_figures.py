@@ -86,6 +86,17 @@ fund = text("funding.html")
 for k, v in ex.items():
     chk(f"funding example: {k} match", re.search(re.escape(k) + r" +\d+ × \$[\d,]+ +\$[\d,]+ +\$[\d,]+ +\$([\d,]+)", fund).group(1), f"{v:,.0f}")
 
+tiles = dict(re.findall(r'<span class="t-topic">(.*?)</span><span class="t-fig">(.*?)</span>', raw_home))
+pp_min = min((r for r in INFL["rows"] if r["first"] == 1960 and not r["missing_years_inside_range"]),
+             key=lambda r: math.prod(1 / (1 + r["values"][str(y)] / 100) for y in range(1960, r["last"] + 1)))
+pp_val = 100 * math.prod(1 / (1 + pp_min["values"][str(y)] / 100) for y in range(1960, pp_min["last"] + 1))
+chk("poster: Oil", tiles["Oil"], f"{can['eia'] / can['opec']:.0f}×")
+chk("poster: Inflation", tiles["Inflation"], f"{pp_val:.1f}")
+chk("poster: Ports", tiles["Ports"], len(movers))
+chk("poster: CFA franc", tiles["CFA franc"], CFA["Overview"]["ExchangeRate"]["FixedToEuro"].split()[-1])
+chk("poster: Funding public goods", html.unescape(tiles["Funding public goods"]), f"${ex['Project B']:,.0f}")
+chk("poster: Crypto strategies", tiles["Crypto strategies"], len(load("funding")["allocation_strategies"]))
+
 for r in rows:
     print(" | ".join(r))
 bad = sum(r[3] != "match" for r in rows)

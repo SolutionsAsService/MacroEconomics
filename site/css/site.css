@@ -66,7 +66,7 @@ code { background: var(--tint); padding: .05em .3em; }
 
 /* Hero: the one bold graphic, complete in the first viewport */
 .hero { padding-block: 18px 8px; }
-.hero h1 { font-size: clamp(1.9rem, 4.2vw, 3.3rem); max-width: 26ch; margin-bottom: .25em; }
+.hero h1 { font-size: clamp(1.9rem, 4.2vw, 3.3rem); max-width: 36ch; margin-bottom: .35em; }
 .hero-take { font-size: 1.12rem; max-width: 84ch; margin-bottom: 10px; }
 .hero-chart svg { display: block; width: 100%; }
 .hero-chart .wide { height: min(60vh, 450px); }
@@ -77,6 +77,33 @@ code { background: var(--tint); padding: .05em .3em; }
   .hero { padding-top: 12px; }
   .hero h1 { font-size: 1.65rem; }
   .hero .hero-take { font-size: .98rem; line-height: 1.45; margin-bottom: 6px; }
+}
+
+/* M14: the landing poster, one graphic for the whole site */
+.poster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--ink); border: 6px solid var(--ink); }
+.tile { display: grid; grid-template-rows: auto auto auto 1fr; gap: 2px; height: 100%; padding: 12px 14px 14px; background: var(--paper); color: var(--ink); text-decoration: none; }
+.tile:hover { background: var(--tint); }
+.tile:focus-visible { outline-offset: -6px; }
+.t-topic { font-weight: 800; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; color: var(--red-ink); }
+.t-fig { font-weight: 900; font-stretch: 68%; font-size: clamp(2.6rem, 6.4vw, 5.2rem); line-height: .95; letter-spacing: -.01em; }
+.t-claim { font-size: .98rem; line-height: 1.35; max-width: 32ch; }
+.glyph { width: 120px; height: 48px; margin: 4px 0 6px; }
+.g-ink { fill: var(--ink); }
+.g-red { fill: var(--red); }
+.g-red-dot { fill: var(--red); }
+.g-dot { fill: var(--ink); }
+.g-ring { fill: var(--paper); stroke: var(--ink); stroke-width: 2; }
+.g-thin { stroke: var(--red); stroke-width: 2.5; }
+.g-line { fill: none; stroke: var(--red); stroke-width: 4; }
+.g-base { stroke: var(--ink); stroke-width: 2; }
+.g-txt { font-size: 11px; font-weight: 800; fill: var(--ink); }
+@media (max-width: 700px) {
+  .poster { grid-template-columns: 1fr 1fr; gap: 4px; border-width: 4px; }
+  .tile { padding: 8px 9px 10px; }
+  .t-topic { font-size: .66rem; letter-spacing: .08em; }
+  .t-fig { font-size: 2.35rem; }
+  .t-claim { font-size: .8rem; line-height: 1.28; }
+  .glyph { width: 84px; height: 34px; margin: 2px 0 3px; }
 }
 
 /* Chart marks */

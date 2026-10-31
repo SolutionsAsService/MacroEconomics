@@ -69,7 +69,7 @@ def layout(name, title, description, body, crumb=None, extra_ld=None, scripts=""
 <meta property="og:image" content="{DOMAIN}og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Proved oil reserves of the ten largest holders as heavy bars, with OPEC's and BP's figures marked as ticks; Canada's OPEC figure sits near zero.">
+<meta property="og:image:alt" content="The economy in six numbers: 38 times for Canada's oil counts, 5.8 for what 100 from 1960 buys, 55 port rankings far apart, 655.957 CFA francs to the euro, $750 from a matching pool, 8 crypto strategies.">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{ld}</script>"""
     robots = "noindex" if name == "404" else "index, follow, max-image-preview:large"
@@ -337,40 +337,66 @@ QF_POOL = 1000
 
 # ---------- pages
 
+def poster():
+    """M14: the landing's one graphic. Six tiles on a heavy grid, one per topic, every figure computed here."""
+    rows = reserves_rows()
+    can = next(r for r in rows if r["country"] == "Canada")
+    pp = min(purchasing_power(), key=lambda s: s[1][-1][1])
+    both = [r for r in PORTS["rows"] if r["stat_rank"]]
+    movers = [r for r in both if abs(r["admin_rank"] - r["stat_rank"]) >= 10]
+    match, _ = qf(QF_EXAMPLE, QF_POOL)
+    n_cfa = sum(len(v["Countries"]) for v in CFA["Institutions"].values())
+    n_strat = len(FUND["allocation_strategies"])
+
+    def glyph(body, label):
+        return f'<svg class="glyph" viewBox="0 0 120 48" aria-hidden="true" focusable="false">{body}</svg>'
+
+    g_oil = ('<rect class="g-ink" x="0" y="8" width="118" height="12"/><rect class="g-red" x="0" y="28" width="3.1" height="12"/>'
+             '<text class="g-txt" x="10" y="39">OPEC</text>')
+    pts = pp[1]
+    curve = " ".join(f"{(y - 1960) * 118 / (pts[-1][0] - 1960):.1f},{46 - v * 0.44:.1f}" for y, v in pts)
+    g_infl = f'<line class="g-base" x1="0" x2="118" y1="46" y2="46"/><polyline class="g-line" points="{curve}"/>'
+    g_ports = "".join(f'<line class="g-thin" x1="{a}" x2="{b}" y1="{y}" y2="{y}"/><circle class="g-dot" cx="{a}" cy="{y}" r="3.5"/><circle class="g-ring" cx="{b}" cy="{y}" r="4"/>'
+                      for a, b, y in ((8, 14, 8), (20, 96, 20), (30, 38, 32), (44, 110, 44)))
+    g_cfa = '<rect class="g-ink" x="0" y="14" width="44" height="7"/><rect class="g-ink" x="0" y="27" width="44" height="7"/><rect class="g-red" x="56" y="10" width="62" height="28"/>'
+    g_fund = "".join(f'<circle class="g-red-dot" cx="{6 + i * 11.6:.1f}" cy="12" r="4.4"/>' for i in range(10)) + '<circle class="g-dot" cx="10" cy="36" r="9"/>'
+    g_strat = "".join(f'<rect class="g-ink" x="0" y="{4 + i * 11}" width="56" height="7"/><rect class="g-red" x="62" y="{4 + i * 11}" width="56" height="7"/>' for i in range(4))
+
+    tiles = [
+        ("oil.html", "Oil", f"{can['eia'] / can['opec']:.0f}×", f"Canada's oil, counted twice: the US EIA's figure is {can['eia'] / can['opec']:.0f} times OPEC's.", g_oil),
+        ("inflation.html", "Inflation", f"{pts[-1][1]:.1f}", f"What 100 from 1960 buys in {e(pp[0])} by {pts[-1][0]}.", g_infl),
+        ("ports.html", "Ports", f"{len(movers)}", f"of {len(both)} container ports land 10 or more places apart under two ranking methods.", g_ports),
+        ("cfa-franc.html", "CFA franc", "655.957", f"CFA francs to €1, fixed since 1999, in {n_cfa} countries.", g_cfa),
+        ("funding.html", "Funding public goods", f"${match['Project B']:,.0f}", f"of a ${QF_POOL:,} pool to ten $10 gifts; one $100 gift gets ${match['Project A']:,.0f}.", g_fund),
+        ("crypto-strategies.html", "Crypto strategies", f"{n_strat}", "ways to invest in crypto, each set beside how it loses.", g_strat),
+    ]
+    items = "".join(f"""<li><a class="tile" href="{h}"><span class="t-topic">{t}</span><span class="t-fig">{f}</span>{glyph(g, t)}<span class="t-claim">{c}</span></a></li>""" for h, t, f, c, g in tiles)
+    return f'<nav class="poster-wrap" aria-label="The six topics"><ul class="poster">{items}</ul></nav>'
+
+
 def page_index():
     rows = reserves_rows()
     canada = next(r for r in rows if r["country"] == "Canada")
     n_diff = sum(1 for r in rows if spread(r) and spread(r) > .25)
     body = f"""<section class="hero" aria-labelledby="hero-h">
   <div class="wrap">
-    <h1 id="hero-h">Who holds the world's oil? It depends who is counting.</h1>
-    <p class="hero-take">Three official counts of proved reserves, ten countries. Canada is the extreme: {bn(canada['eia'])} by the US EIA, {bn(canada['opec'])} by OPEC. {WORDS[n_diff - 1]} others here differ by a quarter or more.</p>
-    <div class="hero-chart">
-      {reserves_svg()}
-      {reserves_svg(tall=True)}
-    </div>
-    {reserves_legend()}
-    <p class="source">Proved oil reserves, billions of barrels. Bars: US Energy Information Administration; ticks: OPEC and BP. Ten largest by the EIA count, of {len(OIL["reserves"]["rows"])} countries in the data. The year of each count is not stated in the inherited file. <a href="oil.html">More on oil</a></p>
+    <h1 id="hero-h">The economy in six numbers, and how each was counted</h1>
+    {poster()}
   </div>
 </section>
-<section class="section wrap" aria-labelledby="topics-h">
-  <h2 id="topics-h">What is here</h2>
-  <p class="lede">Six small datasets about the economy, repaired and charted, each with its sources and its gaps shown.</p>
-  <div class="groups">
-    <section aria-labelledby="g1"><h3 id="g1" class="group-h">Energy and trade</h3><ul class="cards">
-      <li><a href="oil.html"><strong>Oil</strong><span>Who has the oil, who pumps it, and why the counts disagree.</span></a></li>
-      <li><a href="ports.html"><strong>Ports</strong><span>Which container ports work best, by two methods that do not always agree.</span></a></li></ul></section>
-    <section aria-labelledby="g2"><h3 id="g2" class="group-h">Money and prices</h3><ul class="cards">
-      <li><a href="inflation.html"><strong>Inflation</strong><span>What 100 units of money from 1960 buys today, in four countries.</span></a></li>
-      <li><a href="cfa-franc.html"><strong>CFA franc</strong><span>Why fourteen African countries' money is fixed to the euro.</span></a></li></ul></section>
-    <section aria-labelledby="g3"><h3 id="g3" class="group-h">Funding and investing</h3><ul class="cards">
-      <li><a href="funding.html"><strong>Funding public goods</strong><span>How quadratic funding splits a matching pool. Try the calculator.</span></a></li>
-      <li><a href="crypto-strategies.html"><strong>Crypto strategies</strong><span>Common ways people invest in crypto, each beside how it loses.</span></a></li></ul></section>
+<section class="section wrap" aria-labelledby="oil-start">
+  <h2 id="oil-start">Start with oil: who holds it depends who is counting</h2>
+  <p class="take">Three official counts of proved reserves, ten countries. Canada is the extreme: {bn(canada['eia'])} by the US EIA, {bn(canada['opec'])} by OPEC. {WORDS[n_diff - 1]} others here differ by a quarter or more.</p>
+  <div class="hero-chart">
+    {reserves_svg()}
+    {reserves_svg(tall=True)}
   </div>
+  {reserves_legend()}
+  <p class="source">Proved oil reserves, billions of barrels. Bars: US Energy Information Administration; ticks: OPEC and BP. Ten largest by the EIA count, of {len(OIL["reserves"]["rows"])} countries in the data. The year of each count is not stated in the inherited file. <a href="oil.html">More on oil</a></p>
   <p><a href="data.html">About the data: every source, gap and repair →</a></p>
 </section>"""
-    return layout("index", "Who Holds the World's Oil? Macroeconomics Data, Charted · MacroEconomics",
-                  "Proved oil reserves counted three ways, inflation as purchasing power, port rankings, the CFA franc and quadratic funding: small economics datasets, repaired and charted with their sources and gaps shown.", body)
+    return layout("index", "The Economy in Six Numbers: Oil, Inflation, Ports, the CFA Franc, Funding · MacroEconomics",
+                  "Six small economics datasets, repaired and charted with their sources and gaps shown: oil reserves counted three ways, inflation as purchasing power, port rankings, the CFA franc, quadratic funding and crypto strategies.", body)
 
 
 def page_oil():
