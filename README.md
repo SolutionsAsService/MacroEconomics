@@ -15,7 +15,15 @@ Live at https://macroeconomics.shadw.app/ once deployed.
 | CFA franc | `cfa_franc.json` | the euro peg, the two zones and 14 countries, history, criticisms and the case made for it, with a French summary |
 | Funding public goods | `funding.json` | a quadratic funding calculator, the rule (corrected), and nine other funding mechanisms |
 | Crypto strategies | `funding.json` | eight strategies, each beside how it loses; not advice |
-| About the data | `repairs.json` | every source, gap and repair |
+| About the data | `repairs.json`, `macro_repairs.json` | every source, gap and repair |
+| Explorer | `macro_countries.json` | any of 216 countries, or two side by side: GDP, GDP per person, population, inflation, CO2 per person |
+| Economies | `macro_countries.json` | the 15 largest economies, shares of world GDP since 1960, rank movers, GDP per person |
+| People | `macro_countries.json` | the most populous countries, regional shares since 1960, shrinking and fast-growing countries |
+| Prices | `macro_countries.json`, `macro_markets.json` | inflation in every country, worst years on record, world inflation, US prices since 1913 |
+| Markets | `macro_markets.json` | Brent and WTI since 1987, gold since 1833, the S&P 500 and P/E10 since 1871, Henry Hub gas, each in today's dollars too |
+| Money | `macro_markets.json` | 22 currencies against the US dollar since 2000 |
+| Jobs | `macro_markets.json` | US unemployment and participation since 1941 |
+| Climate | `macro_countries.json`, `macro_markets.json` | global fossil CO2 since 1750, Mauna Loa CO2, emissions against income, largest and per-person emitters |
 
 ## The data
 
@@ -25,10 +33,14 @@ The inflation file holds only the World Bank's rows from Aruba to Bangladesh, an
 
 The repository as it stood before this redesign is on the branch `legacy-2026-10-30`.
 
+The wider-economy pages use open datasets from the World Bank, US EIA, BLS, NOAA, the Federal Reserve, Robert Shiller, the Global Carbon Project and Our World in Data (via the Open Knowledge Foundation's `datasets` repositories). `_src/fetch_macro.py` downloads them unchanged into `_src/raw/macro/` (the 7.6 MB daily exchange-rate file is not committed; rerun the fetch to get it), and `_src/clean_macro.py` writes `_src/data/macro_countries.json` and `macro_markets.json`. It never fills a gap; every repair is on the About the data page. Each source keeps its own licence (CC-BY-4.0 or PDDL).
+
 ## Building
 
 ```bash
+python _src/fetch_macro.py   # only to refresh the macro data; needs network
 python _src/clean.py
+python _src/clean_macro.py
 python _src/build.py
 python _src/check_figures.py
 ```

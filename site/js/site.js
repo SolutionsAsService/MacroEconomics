@@ -1,8 +1,8 @@
-// Phone menu: on narrow screens the seven nav links fold behind one Menu button, so the landing
+// Phone menu: on narrow screens the nav links fold behind one Menu button, so the landing
 // chart fits the first screen. Without this script the full list shows, as on desktop.
 (function () {
   var nav = document.querySelector(".site-head nav");
-  var list = nav && nav.querySelector(".site-nav");
+  var list = nav && nav.querySelector(".nav-panel");
   if (!list) return;
   document.documentElement.classList.add("js");
   var btn = document.createElement("button");
@@ -11,7 +11,6 @@
   btn.textContent = "Menu";
   btn.setAttribute("aria-expanded", "false");
   btn.setAttribute("aria-controls", "site-nav");
-  list.id = "site-nav";
   nav.insertBefore(btn, list);
   function set(open) {
     btn.setAttribute("aria-expanded", String(open));

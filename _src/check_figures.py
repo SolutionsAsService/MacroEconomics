@@ -97,6 +97,71 @@ chk("poster: CFA franc", tiles["CFA franc"], CFA["Overview"]["ExchangeRate"]["Fi
 chk("poster: Funding public goods", html.unescape(tiles["Funding public goods"]), f"${ex['Project B']:,.0f}")
 chk("poster: Crypto strategies", tiles["Crypto strategies"], len(load("funding")["allocation_strategies"]))
 
+# ---- wider-economy pages, recomputed from the raw CSVs (not from _src/data/macro_*.json)
+import csv
+RAWM = SRC / "raw" / "macro"
+rc = lambda n: list(csv.DictReader(open(RAWM / n, encoding="utf-8")))
+iso = {r["ISO3166-1-Alpha-3"] for r in rc("country_codes.csv")} | {"XKX"}
+gdp = {}
+for r in rc("gdp.csv"):
+    if r["Country Code"] in iso and r["Value"]:
+        gdp.setdefault(int(r["Year"]), {})[r["Country Name"]] = float(r["Value"])
+gy = max(y for y, d in gdp.items() if len(d) >= 180)
+world_gdp = next(float(r["Value"]) for r in rc("gdp.csv") if r["Country Code"] == "WLD" and int(r["Year"]) == gy)
+top = sorted(gdp[gy].items(), key=lambda kv: -kv[1])
+eco = text("economies.html")
+chk("economies: year", re.search(r"World Bank, GDP \(current US\$\), NY\.GDP\.MKTP\.CD, (\d{4})", eco).group(1), gy)
+chk("economies: economies with a figure", re.search(r"15 largest of (\d+) economies", eco).group(1), len(gdp[gy]))
+chk("economies: top-3 share %", re.search(r"The three largest hold (\d+)% of world GDP", eco).group(1), f"{sum(v for _, v in top[:3]) / world_gdp * 100:.0f}")
+chk("economies: top-10 share %", re.search(r"the ten largest (\d+)%", eco).group(1), f"{sum(v for _, v in top[:10]) / world_gdp * 100:.0f}")
+chk("economies: top ÷ second", re.search(r"is ([\d.]+) times", eco).group(1), f"{top[0][1] / top[1][1]:.1f}")
+
+pop = {}
+for r in rc("population.csv"):
+    if r["Country Code"] in iso and r["Value"]:
+        pop.setdefault(int(r["Year"]), {})[r["Country Name"]] = float(r["Value"])
+py = max(y for y, d in pop.items() if len(d) >= 180)
+ppl = text("people.html")
+big = sorted(pop[py].items(), key=lambda kv: -kv[1])
+chk("people: countries", re.search(r"15 largest of (\d+) countries", ppl).group(1), len(pop[py]))
+chk("people: ten most populous share %", re.search(r"ten most populous countries hold (\d+)%", ppl).group(1),
+    f"{sum(v for _, v in big[:10]) / next(float(r['Value']) for r in rc('population.csv') if r['Country Code'] == 'WLD' and int(r['Year']) == py) * 100:.0f}")
+
+infl = {}
+for r in rc("inflation_consumer.csv"):
+    if r["Country Code"] in iso and r["Inflation"]:
+        infl.setdefault(int(r["Year"]), {})[r["Country"]] = float(r["Inflation"])
+iy = max(y for y, d in infl.items() if len(d) >= 180)
+pr = text("prices.html")
+vals = sorted(infl[iy].values())
+chk("prices: countries under 5%", re.search(r"had inflation under 5% and", pr) and re.search(r"(\d+) of \d+ countries had inflation under 5%", pr).group(1), sum(1 for v in vals if v < 5))
+chk("prices: 10% or more", re.search(r"and (\d+) had 10% or more", pr).group(1), sum(1 for v in vals if v >= 10))
+chk("prices: median", re.search(r"median country had ([\d.]+)% inflation", pr).group(1), f"{vals[len(vals) // 2]:.1f}")
+hi = max(infl[iy].items(), key=lambda kv: kv[1])
+chk("prices: highest", re.search(r"(\w[\w .,'-]*?) had ([\d,]+)% inflation in " + str(iy), pr).group(2), f"{hi[1]:,.0f}")
+
+mk = text("markets.html")
+brent = {}
+for r in rc("brent_daily.csv"):
+    brent.setdefault(r["Date"][:7], []).append(float(r["Price"]))
+bm = {k: sum(v) / len(v) for k, v in brent.items()}
+pk = max(bm, key=lambda k: bm[k])
+chk("markets: Brent peak month", re.search(r"Brent peaked at \$(\d+) in (\d{4}-\d{2})", mk).group(2), pk)
+chk("markets: Brent peak $", re.search(r"Brent peaked at \$(\d+)", mk).group(1), f"{bm[pk]:.0f}")
+gold = {r["Date"]: float(r["Price"]) for r in rc("gold_monthly.csv") if r["Price"]}
+chk("markets: gold latest $", re.search(r"and \$([\d,]+) in \d{4}-\d{2}", mk).group(1), f"{gold[max(gold)]:,.0f}")
+
+jb = text("jobs.html")
+emp = [r for r in rc("us_employment.csv") if r["unemployed_percent"]]
+mx = max(emp, key=lambda r: float(r["unemployed_percent"]))
+chk("jobs: unemployment peak", re.search(r"Unemployment reached ([\d.]+)% in (\d{4})", jb).groups(), (mx["unemployed_percent"], mx["year"]))
+
+cl = text("climate.html")
+fo = {int(r["Year"]): float(r["Total"]) for r in rc("co2_fossil_global.csv") if r["Total"]}
+ly = max(fo)
+chk("climate: fossil CO2 bn t, latest", re.search(r"([\d.]+) billion tonnes in " + str(ly), cl).group(1), f"{fo[ly] * 3.664 / 1000:.1f}")
+chk("climate: times 1950", re.search(r"is ([\d.]+) times its 1950 level", cl).group(1), f"{fo[ly] / fo[1950]:.1f}")
+
 for r in rows:
     print(" | ".join(r))
 bad = sum(r[3] != "match" for r in rows)

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Country Explorer: GDP, People, Prices and Carbon for Every Country · MacroEconomics</title>
+<meta name="description" content="Choose any of 216 countries and compare two: GDP, GDP per person, population, inflation and CO2 per person over time, drawn in your browser from open data.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://macroeconomics.shadw.app/explorer">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MacroEconomics">
+<meta property="og:title" content="Country Explorer: GDP, People, Prices and Carbon for Every Country · MacroEconomics">
+<meta property="og:description" content="Choose any of 216 countries and compare two: GDP, GDP per person, population, inflation and CO2 per person over time, drawn in your browser from open data.">
+<meta property="og:url" content="https://macroeconomics.shadw.app/explorer">
+<meta property="og:image" content="https://macroeconomics.shadw.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The economy in six numbers: 38 times for Canada's oil counts, 5.8 for what 100 from 1960 buys, 55 port rankings far apart, 655.957 CFA francs to the euro, $750 from a matching pool, 8 crypto strategies.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://macroeconomics.shadw.app/#site", "url": "https://macroeconomics.shadw.app/", "name": "MacroEconomics", "description": "Oil, prices, ports and money: the data, with its seams showing", "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://macroeconomics.shadw.app/explorer#page", "url": "https://macroeconomics.shadw.app/explorer", "name": "Country Explorer: GDP, People, Prices and Carbon for Every Country · MacroEconomics", "description": "Choose any of 216 countries and compare two: GDP, GDP per person, population, inflation and CO2 per person over time, drawn in your browser from open data.", "isPartOf": {"@id": "https://macroeconomics.shadw.app/#site"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://macroeconomics.shadw.app/"}, {"@type": "ListItem", "position": 2, "name": "Explorer", "item": "https://macroeconomics.shadw.app/explorer"}]}]}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html"><span class="brand-name">MacroEconomics</span><span class="brand-tag">Oil, prices, ports and money: the data, with its seams showing</span></a>
+    <nav aria-label="Main">
+    <div class="nav-panel" id="site-nav">
+      <ul class="site-nav" aria-label="The wider economy">
+        <li><a href="explorer.html" aria-current="page">Explorer</a></li>
+        <li><a href="economies.html">Economies</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="markets.html">Markets</a></li>
+        <li><a href="money.html">Money</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="climate.html">Climate</a></li>
+      </ul>
+      <ul class="site-nav site-nav-2" aria-label="Topics and data">
+        <li><a href="oil.html">Oil</a></li>
+        <li><a href="inflation.html">Inflation</a></li>
+        <li><a href="ports.html">Ports</a></li>
+        <li><a href="cfa-franc.html">CFA franc</a></li>
+        <li><a href="funding.html">Funding public goods</a></li>
+        <li><a href="crypto-strategies.html">Crypto strategies</a></li>
+        <li><a href="data.html">About the data</a></li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<header class="page-head wrap"><p class="kicker">Explorer</p><h1>Any country, side by side</h1><p class="plain"><strong>In plain words:</strong> Pick a country to see its economy over time: output, output per person, population, inflation and carbon. Pick a second to draw it on the same charts. Everything comes from the datasets on this site.</p></header>
+<section class="section wrap" id="explorer" data-src="data/macro_countries.json">
+  <noscript><p class="warn">The explorer draws its charts in the browser, so it needs JavaScript. Without it, every figure is on the <a href="economies.html">economies</a>, <a href="people.html">people</a> and <a href="prices.html">prices</a> pages and in the <a href="data/macro_countries.json">country data file</a>.</p></noscript>
+  <form class="ex-form" onsubmit="return false">
+    <div class="field"><label for="ex-a">Country</label><input id="ex-a" list="ex-list" autocomplete="off" placeholder="Start typing, e.g. Kenya" aria-describedby="ex-help"></div>
+    <div class="field"><label for="ex-b">Compare with (optional)</label><input id="ex-b" list="ex-list" autocomplete="off" placeholder="Another country"></div>
+    <datalist id="ex-list"></datalist>
+  </form>
+  <p class="hint" id="ex-help">216 countries. The address bar keeps your choice, so you can share it.</p>
+  <p id="ex-status" role="status" aria-live="polite" class="hint">Loading the data…</p>
+  <ul class="ex-tiles" id="ex-tiles" aria-label="Key figures"></ul>
+  <div class="ex-grid" id="ex-grid"></div>
+  <p class="source">World Bank (GDP, population, consumer price inflation), Our World in Data (CO2). GDP is in current US dollars, not adjusted for prices. A gap in a line is a year with no figure; nothing is filled in. <a href="data.html#countries">About the data</a></p>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="foot-name">MacroEconomics</p>
+    <p>Oil, prices, ports and money: the data, with its seams showing. Open data and code under the MIT license; every repair to the inherited data is listed on <a href="data.html">About the data</a>.</p>
+    <nav aria-label="Footer"><ul class="foot-nav"><li><a href="index.html">Home</a></li><li><a href="explorer.html">Explorer</a></li><li><a href="economies.html">Economies</a></li><li><a href="people.html">People</a></li><li><a href="prices.html">Prices</a></li><li><a href="markets.html">Markets</a></li><li><a href="money.html">Money</a></li><li><a href="jobs.html">Jobs</a></li><li><a href="climate.html">Climate</a></li><li><a href="oil.html">Oil</a></li><li><a href="inflation.html">Inflation</a></li><li><a href="ports.html">Ports</a></li><li><a href="cfa-franc.html">CFA franc</a></li><li><a href="funding.html">Funding public goods</a></li><li><a href="crypto-strategies.html">Crypto strategies</a></li><li><a href="data.html">About the data</a></li></ul></nav>
+  </div>
+</footer>
+<script src="js/site.js" defer></script>
+<script src="js/explorer.js" defer></script>
+</body>
+</html>

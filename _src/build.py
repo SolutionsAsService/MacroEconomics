@@ -28,8 +28,15 @@ def load(name):
 
 
 OIL, INFL, PORTS, CFA, FUND, REPAIRS = (load(n) for n in ("oil", "inflation", "ports", "cfa_franc", "funding", "repairs"))
-NAV = [("oil", "Oil"), ("inflation", "Inflation"), ("ports", "Ports"), ("cfa-franc", "CFA franc"),
-       ("funding", "Funding public goods"), ("crypto-strategies", "Crypto strategies"), ("data", "About the data")]
+MREP = load("macro_repairs")
+NAV_MACRO = [("explorer", "Explorer"), ("economies", "Economies"), ("people", "People"), ("prices", "Prices"), ("markets", "Markets"),
+             ("money", "Money"), ("jobs", "Jobs"), ("climate", "Climate")]
+NAV_TOPICS = [("oil", "Oil"), ("inflation", "Inflation"), ("ports", "Ports"), ("cfa-franc", "CFA franc"),
+              ("funding", "Funding public goods"), ("crypto-strategies", "Crypto strategies"), ("data", "About the data")]
+NAV = NAV_MACRO + NAV_TOPICS
+
+
+WIDER = lambda: ""  # set in main(): the landing's block of wider-economy pages (needs macro_pages)
 
 
 def bn(million):
@@ -49,8 +56,16 @@ def split_camel(s):
 # ---------- layout
 
 def layout(name, title, description, body, crumb=None, extra_ld=None, scripts=""):
-    nav = "\n".join(
-        f'        <li><a href="{slug}.html"{" aria-current=\"page\"" if slug == name else ""}>{label}</a></li>' for slug, label in NAV)
+    def items(group):
+        return "\n".join(f'        <li><a href="{slug}.html"{" aria-current=\"page\"" if slug == name else ""}>{label}</a></li>' for slug, label in group)
+    nav = f"""<div class="nav-panel" id="site-nav">
+      <ul class="site-nav" aria-label="The wider economy">
+{items(NAV_MACRO)}
+      </ul>
+      <ul class="site-nav site-nav-2" aria-label="Topics and data">
+{items(NAV_TOPICS)}
+      </ul>
+    </div>"""
     graph = [{"@type": "WebSite", "@id": DOMAIN + "#site", "url": DOMAIN, "name": NAME, "description": TAGLINE, "inLanguage": "en"},
              {"@type": "WebPage", "@id": page_url(name) + "#page", "url": page_url(name), "name": title,
               "description": description, "isPartOf": {"@id": DOMAIN + "#site"}}]
@@ -95,9 +110,7 @@ def layout(name, title, description, body, crumb=None, extra_ld=None, scripts=""
   <div class="wrap head-row">
     <a class="brand" href="index.html"><span class="brand-name">{NAME}</span><span class="brand-tag">{e(TAGLINE)}</span></a>
     <nav aria-label="Main">
-      <ul class="site-nav">
-{nav}
-      </ul>
+    {nav}
     </nav>
   </div>
 </header>
@@ -384,6 +397,7 @@ def page_index():
     {poster()}
   </div>
 </section>
+{WIDER()}
 <section class="section wrap" aria-labelledby="oil-start">
   <h2 id="oil-start">Start with oil: who holds it depends who is counting</h2>
   <p class="take">Three official counts of proved reserves, ten countries. Canada is the extreme: {bn(canada['eia'])} by the US EIA, {bn(canada['opec'])} by OPEC. {WORDS[n_diff - 1]} others here differ by a quarter or more.</p>
@@ -621,16 +635,21 @@ def page_crypto():
 
 def page_data():
     by = {}
-    for r in REPAIRS:
+    for r in REPAIRS + MREP:
         by.setdefault(r["dataset"], []).append(r["repair"])
+    MACRO_DESC = macro_desc()
     sets = [("oil", "Oil", "oil.json", f"US EIA, OPEC and BP proved reserves for {len(OIL['reserves']['rows'])} countries (million barrels); production for 10 countries, September 2023 (barrels per day)."),
             ("inflation", "Inflation", "inflation.json", f"World Bank consumer price inflation, annual %, {len(INFL['rows'])} rows (Aruba to Bangladesh), 1960 to 2022."),
             ("ports", "Ports", "ports.json", f"Container Port Performance Index 2021, {len(PORTS['rows'])} ports, two ranks each."),
             ("cfa_franc", "CFA franc", "cfa_franc.json", "History, institutions, members, rate history and reform of the CFA franc."),
             ("funding", "Funding and crypto strategies", "funding.json", "Nine funding mechanisms, quadratic funding, and eight crypto allocation strategies, as written in the inherited files."),
+            ("countries", "Countries: GDP, people, prices, carbon", "macro_countries.json", MACRO_DESC["countries"]),
+            ("markets", "Markets and US data", "macro_markets.json", MACRO_DESC["markets"]),
+            ("money", "Exchange rates", None, MACRO_DESC["money"]),
+            ("climate", "Climate series", None, MACRO_DESC["climate"]),
             ("price_prediction", "Price prediction", None, "A script, not data.")]
     items = "".join(f"""<section aria-labelledby="{k.replace('_', '-')}"><h2 id="{k.replace('_', '-')}">{t}</h2><p>{d}</p>
-      {f'<p><a href="data/{f}">Download {f}</a></p>' if f else ""}
+      {f'<p><a href="data/{f}">Download {f}</a></p>' if f else ""}{'<p><a href="data/macro_countries_long.csv">Download the same country data as one CSV, a row per country and year</a></p>' if k == "countries" else ""}
       {'<h3>Repairs</h3><ul>' + "".join(f"<li>{e(x)}</li>" for x in by.get(k, [])) + "</ul>" if by.get(k) else ""}</section>""" for k, t, f, d in sets)
     ds = [{"@type": "Dataset", "name": f"MacroEconomics: {t}", "description": d, "license": "https://opensource.org/licenses/MIT",
            "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": DOMAIN + "data/" + f}}
@@ -638,7 +657,7 @@ def page_data():
     body = f"""<header class="page-head wrap">
   <p class="kicker">About the data</p>
   <h1>Where every number comes from, and what was fixed</h1>
-  <p class="plain"><strong>In plain words:</strong> this site began as a folder of data files, three of which could not be opened by a program. They were repaired, not replaced: the originals are kept unchanged, and every repair is listed below.</p>
+  <p class="plain"><strong>In plain words:</strong> this site began as a folder of data files, three of which could not be opened by a program. They were repaired, not replaced: the originals are kept unchanged, and every repair is listed below. The wider-economy pages add open datasets from the World Bank, US government agencies, NOAA, the Federal Reserve and others, downloaded unchanged into <code>_src/raw/macro/</code> and cleaned by <code>_src/clean_macro.py</code>, which never fills a gap.</p>
 </header>
 <section class="section wrap prose">
 {items}
@@ -692,19 +711,25 @@ def check():
 
 
 def main():
+    global WIDER, macro_desc
+    import macro_pages
+    mp = macro_pages.make(sys.modules[__name__])
+    WIDER, macro_desc = mp.pop("_wider"), mp.pop("_desc")
+    wider_pages = {n: f() for n, f in mp.items()}
     pages = {"index": page_index(), "oil": page_oil(), "inflation": page_inflation(), "ports": page_ports(),
-             "cfa-franc": page_cfa(), "funding": page_funding(), "crypto-strategies": page_crypto(), "data": page_data(), "404": page_404()}
+             "cfa-franc": page_cfa(), "funding": page_funding(), "crypto-strategies": page_crypto(), "data": page_data(), "404": page_404(), **wider_pages}
     for n, s in pages.items():
         (OUT / f"{n}.html").write_text(s, encoding="utf-8")
     (OUT / "data").mkdir(exist_ok=True)
-    for f in ("oil", "inflation", "ports", "cfa_franc", "funding", "repairs"):
+    for f in ("oil", "inflation", "ports", "cfa_franc", "funding", "repairs", "macro_countries", "macro_markets", "macro_repairs"):
         shutil.copy(SRC / "data" / f"{f}.json", OUT / "data" / f"{f}.json")
+    (OUT / "data" / "macro_countries_long.csv").write_text(macro_pages.long_csv(), encoding="utf-8")
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
-    listed = [n for n in pages if n != "404"]
+    listed = [n for n in list(pages) if n != "404"]
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "\n".join(f"  <url><loc>{page_url(n)}</loc></url>" for n in listed) + "\n</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}sitemap.xml\n", encoding="utf-8")
-    llms = [f"# {NAME}", "", f"> {TAGLINE}. Small economics datasets, repaired and charted. Data: {DOMAIN}data/ (MIT).", ""]
+    llms = [f"# {NAME}", "", f"> {TAGLINE}. Economics datasets, repaired and charted: oil, prices, ports, the CFA franc, and the wider economy of {len(macro_pages.COUNTRIES)} countries, markets, money, jobs and climate. Data: {DOMAIN}data/ (code MIT; each source keeps its own licence, listed on the About the data page).", ""]
     for n in listed:
         t = html.unescape(re.search(r"<title>(.*?)</title>", pages[n]).group(1))
         d = html.unescape(re.search(r'<meta name="description" content="(.*?)">', pages[n]).group(1))
